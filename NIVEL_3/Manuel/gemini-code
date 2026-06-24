@@ -1,0 +1,24 @@
+import pandas as pd
+
+# 1. Cargar el dataset
+# Nota: Como es un archivo .txt con estructura CSV, usamos read_csv
+df = pd.read_csv('registros_operaciones .txt')
+
+# 2. Información inicial para comparar
+print(f"Registros originales: {len(df)}")
+
+# 3. Eliminar duplicados
+# drop_duplicates() elimina filas donde todos los valores son iguales
+df_limpio = df.drop_duplicates()
+
+# 4. Eliminar registros nulos
+# dropna() elimina cualquier fila que contenga al menos un valor nulo (NaN)
+df_limpio = df_limpio.dropna()
+
+# 5. Información final
+print(f"Registros después de la limpieza: {len(df_limpio)}")
+
+# 6. Guardar el resultado en un nuevo archivo
+df_limpio.to_csv('registros_operaciones_limpios.csv', index=False)
+
+print("Proceso completado. Archivo 'registros_operaciones_limpios.csv' generado.")

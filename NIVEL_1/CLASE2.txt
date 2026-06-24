@@ -1,0 +1,44 @@
+INGENIERÍA DE PROMPTS.
+
+RTFC
+
+Prueba 1:
+Actua como experto de mercadeo, escribe un correo de ventas, para una novela de romance, máximo 150 palabras con tono amigable. 
+
+
+Asunto: ¿Lista para enamorarte de nuevo? 💖
+
+Hola,
+
+¿Alguna vez has sentido que un libro te atrapa desde la primera página y no te suelta hasta el final?
+
+Te escribo porque sé cuánto disfrutas una buena historia de amor. Me encantaría que conocieras **Interaxia**, una novela diseñada para hacerte suspirar, reír y, tal vez, soltar una lagrimita. Es el tipo de lectura perfecta para desconectarse del mundo y sumergirse en una conexión inolvidable.
+
+Si buscas a tu próxima gran obsesión literaria, esta historia te está esperando. Puedes encontrarla aquí: [Enlace de compra].
+
+Espero que la disfrutes tanto como yo disfruté escribirla (o verla nacer). Me encantaría saber qué te parece cuando la termines.
+
+Con cariño,
+
+[Tu nombre]
+
+---
+
+¿Te gustaría que ajustara el tono o algún detalle específico sobre la trama para personalizarlo más?
+
+
+bootstrapmade
+
+https://bootstrapmade.com/
+
+MARY: Asume el rol experto en desarrollo de sitios web, adapta el contenido del archivo anexo index.html para el servicio de cursos para cuidados paleativos (cuidado a adultos mayores), conserva el formato original, colores, imagenes, diseño contenidos en dicho archivo. Genera un nuevo archivo html con dicha actualización.
+
+CITLALLY: Asume el rol experto en desarrollo de sitios web, adapta el contenido del archivo anexo index.html para el servicio de ventas y alquileres de inmuebles, conserva el formato original, colores, imagenes, diseño contenidos en dicho archivo. Genera un nuevo archivo html con dicha actualización.
+
+JHULIET: Asume el rol experto en desarrollo de sitios web, adapta el contenido del archivo anexo index.html para el servicio de asesoría en materia financiera y bolsa de valores, conserva el formato original, colores, imagenes, diseño contenidos en dicho archivo. Genera un nuevo archivo html con dicha actualización.
+
+MANUEL: Asume el rol experto en desarrollo de sitios web, adapta el contenido del archivo anexo index.html para el servicio de instalación y mantenimiento de redes de computadoras, conserva el formato original, colores, imagenes, diseño contenidos en dicho archivo. Genera un nuevo archivo html con dicha actualización.
+
+JESÚS: Asume el rol experto en desarrollo de sitios web, adapta el contenido del archivo anexo index.html para el servicio de seguridad e instalación de sistemas anti instrusos, conserva el formato original, colores, imagenes, diseño contenidos en dicho archivo. Genera un nuevo archivo html con dicha actualización.
+
+PROFESOR:Asume el rol experto en desarrollo de sitios web, adapta el contenido del archivo anexo index.html para el servicio de consultoría en el área de tecnologías de la información, conserva el formato original, colores, imagenes, diseño contenidos en dicho archivo. Genera un nuevo archivo html con dicha actualización.

@@ -1,0 +1,7 @@
+Actúa como un Asesor Financiero Senior y Gestor de Portafolios certificado (CFA).
+
+Contexto: Un inversor de 35 años tiene un capital de $50,000 USD disponibles. Tiene un perfil de riesgo moderado-alto, busca crecimiento a largo plazo (10-15 años) pero quiere cierta protección contra la inflación actual del mercado.
+
+Tarea: Crea una estrategia de asignación de activos (Asset Allocation) diversificada, explicando qué porcentaje destinarías a acciones (ETFs, Growth), renta fija, commodities o criptoactivos, y la justificación de cada elección según el panorama macroeconómico actual.
+
+Formato: Presenta la información usando un gráfico de distribución sugerido en texto (ej. Acciones: 60%), seguido de viñetas explicativas para cada clase de activo y una sección de "Riesgos a monitorear".

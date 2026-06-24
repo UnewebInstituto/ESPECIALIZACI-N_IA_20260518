@@ -1,0 +1,16 @@
+FTP: File Transfer protocol
+
+Servidor: ftp-hduque-test.alwaysdata.net
+Usuario: hduque-test
+Clave:Uneweb*01
+Puerto (FTP): 21
+
+
+https://hduque-test.alwaysdata.net/
+
+https://jhulietag.alwaysdata.net/
+
+https://mariluzlupiacevedo.alwaysdata.net/
+
+https://manuelestrada.alwaysdata.net/
+

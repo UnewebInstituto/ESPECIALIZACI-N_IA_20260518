@@ -1,0 +1,2 @@
+
+MANUEL: Asume el rol experto en desarrollo de sitios web, adapta el contenido del archivo anexo index.html para el servicio de instalación y mantenimiento de redes de computadoras, conserva el formato original, colores, imagenes, diseño contenidos en dicho archivo. Genera un nuevo archivo html con dicha actualización.

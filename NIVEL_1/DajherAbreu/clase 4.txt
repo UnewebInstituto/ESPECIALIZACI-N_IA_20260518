@@ -1,0 +1,113 @@
+¡Hola! Qué excelente y necesaria iniciativa. Diseñar tecnología para adultos mayores no se trata de "bajar el nivel", sino de **traducir la jerga técnica a metáforas de la vida cotidiana** y enfocarse en la utilidad real. A esta edad, el tiempo es valioso y la tecnología debe servir para conectar, simplificar o entretener, no para generar frustración.
+
+Aquí tienes la estructura completa, el contenido y los consejos de desarrollo para una presentación de **45 a 60 minutos**. Está pensada para un nivel de conocimiento cero.
+
+---
+
+# Estructura de la Presentación: "La IA a Nuestro Favor"
+
+## 🟦 Diapositiva 1: Portada
+
+* **Título:** Tu Nuevo Asistente Digital: Cómo la Inteligencia Artificial nos hace la vida más fácil.
+* **Subtítulo:** Sin tecnicismos, sin miedo y a nuestro propio ritmo.
+* **Imagen visual sugerida:** Una persona mayor sonriendo mientras usa una tableta o un teléfono inteligente.
+
+---
+
+## 🟦 Diapositiva 2: ¿Qué es la Inteligencia Artificial (IA)?
+
+* **Concepto clave:** Explicar la IA sin fórmulas.
+* **Texto en pantalla:**
+* No es un robot de película que piensa por sí mismo.
+* Es un **asistente virtual muy rápido y memorioso**.
+* Imagínalo como un secretario que ha leído todos los libros del mundo y está listo para responderte en segundos.
+
+
+* **Metáfora para el expositor:** *"Si le pides una receta de cocina a tu vecino, te dará una. Si se la pides a la IA, te dará la receta, te dirá con qué reemplazar el azúcar si eres diabético y te armará la lista de compras"*.
+
+---
+
+## 🟦 Diapositiva 3: La IA que ya usas (y quizás no sabías)
+
+* **Concepto clave:** Quitar el miedo demostrando que ya conviven con ella.
+* **Texto en pantalla:**
+* **El corrector del teléfono:** Cuando escribes mal una palabra y se arregla sola.
+* **Netflix o YouTube:** Cuando te recomiendan una película o canción que "saben" que te va a gustar.
+* **El GPS (Google Maps):** Que calcula la mejor ruta para evitar el tráfico en tiempo real.
+
+
+* **Mensaje:** *"La IA no es el futuro, es el presente y ya te está ayudando"*.
+
+---
+
+## 🟦 Diapositiva 4: ¿Para qué me sirve a mí? (Beneficios Reales)
+
+* **Concepto clave:** Mostrar el valor práctico.
+* **Texto en pantalla:**
+* **Recordatorios:** *"Avisame que me tome la pastilla de la presión a las 8:00 PM"*.
+* **Curiosidad y Aprendizaje:** Explicar temas complejos de forma simple (ej. *"Explícame cómo funciona el sistema financiero como si tuviera 10 años"*).
+* **Traducción y Viajes:** Entender carteles en otros idiomas o redactar una carta formal.
+* **Entretenimiento:** Pedirle que te recomiende libros de misterio o que invente un cuento para tus nietos.
+
+
+
+---
+
+## 🟦 Diapositiva 5: Aprendiendo a "Conversar" con la IA (El secreto del Éxito)
+
+* **Concepto clave:** Cómo pedir las cosas (el concepto de *prompt* explicado de forma sencilla).
+* **Texto en pantalla:**
+* A la IA se le habla como a una persona educada y detallista.
+* **Fórmula mágica:** Quién eres + Qué necesitas + Cómo lo quieres.
+
+
+* **Ejemplo práctico:**
+* ❌ *Mal:* "Dame una receta". (La IA no sabe qué te gusta).
+* canaria *Bien:* "Soy un adulto mayor, tengo pollo y calabaza en la nevera, y tengo poco tiempo. Dime una receta saludable y fácil de masticar".
+
+
+
+---
+
+## 🟦 Diapositiva 6: Demostración en Vivo (El momento "¡Wow!")
+
+* *Nota para el expositor: Abre ChatGPT, Claude o Copilot en la pantalla grande y haz un ejercicio con ellos.*
+* **Ejercicios sugeridos para la demo:**
+1. Escribir un mensaje de WhatsApp claro y cariñoso para felicitar a un nieto que se gradúa.
+2. Pedir un menú semanal económico y bajo en sal.
+3. Preguntar el significado de una palabra moderna que usan los jóvenes hoy en día (ej. *"¿Qué significa que algo es 'cringe' o 'aesthetic'?"*).
+
+
+
+---
+
+## 🟦 Diapositiva 7: Seguridad y Sentido Común (La "Letra Chica")
+
+* **Concepto clave:** Evitar fraudes y entender las limitaciones.
+* **Texto en pantalla:**
+* **La IA a veces inventa:** Siempre verifica la información médica o legal importante con un profesional humano.
+* **Privacidad:** Nunca le des tus contraseñas, datos bancarios o números de identificación.
+* **Es una herramienta, no un ser vivo:** No tiene sentimientos, aunque sea muy amable.
+
+
+
+---
+
+## 🟦 Diapositiva 8: Próximos Pasos (Tu Tarea para Hoy)
+
+* **Texto en pantalla:**
+1. Descarga una aplicación gratuita (como ChatGPT o Copilot) en tu teléfono o usa el buscador de tu computadora.
+2. Hazle tres preguntas sobre tus pasatiempos favoritos (jardinería, historia, tejido).
+3. Pierde el miedo: ¡La pantalla no va a explotar si te equivocas!
+
+
+
+---
+
+# Consejos Pedagógicos para el Expositor
+
+* **Tipografía y Diseño:** Usa fondos claros con letras oscuras (alto contraste). El tamaño de la letra en las diapositivas no debe ser menor a **24 puntos**. Evita saturar las láminas de texto; usa puntos clave.
+* **El tono de voz:** Paciente, entusiasta y empático. Evita palabras como *Prompt, Machine Learning, LLMs, Algoritmos*. Sustitúyelas por *Instrucción, Sistema, Programa, Asistente*.
+* **Dinámica de micrófono abierto:** Los adultos mayores suelen interrumpir para contar una anécdota personal ("A mi hijo le pasó que..."). No los reprimas bruscamente; valida su comentario brevemente y reencauza la presentación. Su participación es clave para que pierdan el miedo.
+
+¿Te gustaría que profundicemos en los ejemplos de alguna diapositiva en específico o prefieres agregar un módulo sobre cómo usar la IA con la voz (dictado)?

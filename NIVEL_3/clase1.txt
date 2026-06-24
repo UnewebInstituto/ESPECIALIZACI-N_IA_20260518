@@ -1,0 +1,21 @@
+https://www.kaggle.com/
+
+Prompt,basado en el procesamiento de un 
+dataset obtennido de kaggle
+
+Prompt 1:
+Asume el rol de experto en estadísticas y ciencias de datos, toma el contenido del archivo anexo y genera medidas de tendencia central, para las 
+siguiente columnas: Unit Price (precio unitario), Sales (ventas), Profit (Ganancia) y Quantity (Cantidad)
+
+Prompt 2:
+Dame una distribución de frencuencias basada en la columna "category".
+
+Prompt 3:
+Genera una imagen del gráfico de barras a producir a partir de la distribución de frecuencia.
+
+Prompt 4:
+Genera la imagen de un gráfico de barras a partir de los siguientes datos, que corresponden a la distribución de frecuencia obtenida:
+
+Distribución de Frecuencias: Categorías
+
+CategoríaFrecuencia Absoluta (Cant. Ventas)Frecuencia Relativa (%)Beauty2516.56%Books2516.56%Clothing2214.57%Groceries2113.91%Electronics2013.25%Kitchen2013.25%Toys1811.92%Total151100%

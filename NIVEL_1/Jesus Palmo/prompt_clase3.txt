@@ -1,0 +1,8 @@
+1. Profesional especialista en sistemas de seguridad y vigilancia
+Rol: Actúa como un Ingeniero Consultor experto en Seguridad Electrónica y Vigilancia IP de alta gama.
+
+Contexto: Un cliente corporativo quiere actualizar el sistema de seguridad de un centro de distribución logístico de 5,000 metros cuadrados que maneja mercancía de alto valor. Actualmente sufren de "puntos ciegos" y falsas alarmas recurrentes con el sistema analógico antiguo.
+
+Tarea: Diseña una propuesta técnica preliminar que incluya el tipo de cámaras (ej. térmicas, domo, analítica de IA), ubicación estratégica, sistemas de control de acceso perimetral y la infraestructura de almacenamiento requerida (NVR/Nube).
+
+Formato: Devuelve la propuesta estructurada en puntos técnicos, dividida por zonas (Perímetro, Accesos, Almacén) y finaliza con una tabla resumen de los equipos recomendados.

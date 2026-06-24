@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Inmobiliaria Arsha - Ventas y Alquileres</title>
+  <meta name="description" content="Encuentra tu hogar ideal. Venta y alquiler de casas, departamentos y locales comerciales.">
+  <meta name="keywords" content="inmobiliaria, bienes raices, alquiler, venta, departamentos, casas">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  </head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">Arsha</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Inicio</a></li>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#portfolio">Propiedades</a></li>
+          <li><a href="#team">Asesores</a></li>
+          <li><a href="#pricing">Planes corporativos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Categorías</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Casas Residenciales</a></li>
+              <li class="dropdown"><a href="#"><span>Departamentos</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Monoambientes</a></li>
+                  <li><a href="#">2 Dormitorios</a></li>
+                  <li><a href="#">3+ Dormitorios</a></li>
+                  <li><a href="#">Penthouse</a></li>
+                  <li><a href="#">Duplex</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Locales Comerciales</a></li>
+              <li><a href="#">Terrenos / Lotes</a></li>
+              <li><a href="#">Oficinas</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#portfolio">Ver Propiedades</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Las mejores soluciones para tu próximo hogar</h1>
+            <p>Somos un equipo de asesores talentosos listos para ayudarte a comprar, vender o alquilar tu inmueble</p>
+            <div class="d-flex">
+              <a href="#portfolio" class="btn-get-started">Buscar Propiedades</a>
+              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Video Recorrido</span></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/clients-1.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/clients-2.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/clients-3.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/clients-4.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/clients-5.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/clients-6.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/clients-7.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/clients-8.webp" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><section id="about" class="about section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Sobre Nosotros</h2>
+      </div><div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              En Arsha contamos con años de experiencia en el mercado inmobiliario, brindando confianza y seguridad a cada uno de nuestros clientes en sus transacciones más importantes.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Asesoramiento personalizado en todo el proceso de compraventa.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Contratos de alquiler transparentes y bajo normativas legales vigentes.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Valuación profesional y precisa de inmuebles en el mercado actual.</span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p>Nos dedicamos a simplificar la búsqueda de tu propiedad ideal. Ya sea que busques tu primer departamento en alquiler o desees invertir en grandes desarrollos comerciales, nuestro equipo gestiona cada detalle legal y comercial para asegurar tu tranquilidad. </p>
+            <a href="#" class="read-more"><span>Leer Más</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><section id="why-us" class="section why-us light-background" data-builder="section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>Garantía de un servicio </span><strong>eficiente, seguro y transparente</strong></h3>
+              <p>
+                Entendemos que elegir un inmueble es una decisión de vida. Por eso te ofrecemos las mejores herramientas del mercado para una experiencia libre de estrés.
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+                <h3><span>01</span> ¿Cuáles son los requisitos básicos para alquilar?</h3>
+                <div class="faq-content">
+                  <p>Solicitamos comprobación de ingresos estables y una garantía inmobiliaria o seguro de caución. El proceso de aprobación de documentos suele tardar entre 48 y 72 horas hábiles.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><div class="faq-item">
+                <h3><span>02</span> ¿Cómo puedo publicar y vender mi propiedad con ustedes?</h3>
+                <div class="faq-content">
+                  <p>Coordinamos una visita para tasar tu propiedad. Tomamos fotografías profesionales, generamos recorridos virtuales y la publicamos en los portales inmobiliarios más importantes del país para asegurar una venta rápida.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><div class="faq-item">
+                <h3><span>03</span> ¿Ofrecen asesoramiento para créditos hipotecarios?</h3>
+                <div class="faq-content">
+                  <p>Sí, trabajamos en alianza con las principales entidades bancarias para ayudarte a gestionar y evaluar las opciones de crédito que mejor se adapten a tu capacidad de pago y la propiedad elegida.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div></div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/why-us.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section><section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="assets/img/illustration/illustration-10.webp" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+
+            <h3>Nuestra presencia en el mercado inmobiliario actual</h3>
+            <p class="fst-italic">
+              Contamos con una alta efectividad en el cierre de operaciones gracias a nuestra segmentación de clientes y estrategias comerciales.
+            </p>
+
+            <div class="skills-content skills-animation">
+
+              <div class="progress">
+                <span class="skill"><span>Efectividad en Ventas</span> <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><div class="progress">
+                <span class="skill"><span>Ocupación de Alquileres</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><div class="progress">
+                <span class="skill"><span>Clientes Satisfechos</span> <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><div class="progress">
+                <span class="skill"><span>Asesorías Jurídicas Concluidas</span> <i class="val">55%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div></div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><section id="services" class="services section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Nuestros Servicios</h2>
+        <p>Soluciones integrales adaptadas a propietarios, inquilinos e inversionistas corporativos</p>
+      </div><div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="" class="stretched-link">Venta de Propiedades</a></h4>
+              <p>Promoción estratégica de tu inmueble con máxima exposición para concretar la venta ideal.</p>
+            </div>
+          </div><div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" class="stretched-link">Gestión de Alquileres</a></h4>
+              <p>Filtros estrictos para inquilinos y administración integral de contratos mensuales.</p>
+            </div>
+          </div><div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link">Tasaciones Oficiales</a></h4>
+              <p>Estudios de mercado detallados para determinar el valor real y competitivo de tu patrimonio.</p>
+            </div>
+          </div><div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="" class="stretched-link">Consultoría de Inversión</a></h4>
+              <p>Asesoramiento especializado para el desarrollo de proyectos inmobiliarios y pozo.</p>
+            </div>
+          </div></div>
+
+      </div>
+
+    </section><section id="work-process" class="work-process section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Proceso de Trabajo</h2>
+        <p>Pasos claros y transparentes encaminados a encontrar o transferir tu propiedad</p>
+      </div><div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="steps-item">
+              <div class="steps-image">
+                <img src="assets/img/steps/steps-1.webp" alt="Paso 1" class="img-fluid" loading="lazy">
+              </div>
+              <div class="steps-content">
+                <div class="steps-number">01</div>
+                <h3>Búsqueda & Selección</h3>
+                <p>Analizamos las necesidades específicas de tu espacio ideal, presupuesto y zona preferida para filtrar las mejores opciones disponibles.</p>
+                <div class="steps-features">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Análisis de Zona</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Filtro de Presupuesto</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Visitas Programadas</span>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="steps-item">
+              <div class="steps-image">
+                <img src="assets/img/steps/steps-2.webp" alt="Paso 2" class="img-fluid" loading="lazy">
+              </div>
+              <div class="steps-content">
+                <div class="steps-number">02</div>
+                <h3>Revisión & Legal</h3>
+                <p>Nos encargamos de toda la validación de títulos, escrituras y redacción de contratos transparentes resguardando la seguridad jurídica.</p>
+                <div class="steps-features">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Estudio de Títulos</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Contratos Transparentes</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Gestión Notarial</span>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="steps-item">
+              <div class="steps-image">
+                <img src="assets/img/steps/steps-3.webp" alt="Paso 3" class="img-fluid" loading="lazy">
+              </div>
+              <div class="steps-content">
+                <div class="steps-number">03</div>
+                <h3>Cierre & Entrega</h3>
+                <p>Realizamos la firma formal, la liquidación segura de los valores correspondientes y la entrega oficial de las llaves de tu propiedad.</p>
+                <div class="steps-features">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Firma de Contrato</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Pago Seguro</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Entrega de Llaves</span>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+
+        </div>
+
+      </div>
+
+    </section><section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/bg/bg-8.webp" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>¿Quieres vender o alquilar tu propiedad?</h3>
+            <p>Déjanos los datos de tu inmueble y un asesor experto se pondrá en contacto contigo hoy mismo para realizar una tasación profesional sin costo.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#contact">Contáctanos Hoy</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><section id="portfolio" class="portfolio section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Catálogo de Propiedades</h2>
+        <p>Explora nuestras casas y departamentos destacados disponibles para mudarte de inmediato</p>
+      </div><div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Todas</li>
+            <li data-filter=".filter-app">En Alquiler</li>
+            <li data-filter=".filter-product">En Venta</li>
+            <li data-filter=".filter-branding">Destacadas</li>
+          </ul><div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/portfolio-portrait-1.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Depto Centro</h4>
+                <p>Alquiler - 2 Dormitorios</p>
+                <a href="assets/img/portfolio/portfolio-portrait-1.webp" title="Depto Centro" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Más Detalles" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/portfolio-1.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Casa Residencial</h4>
+                <p>Venta - 3 Dormitorios con Piscina</p>
+                <a href="assets/img/portfolio/portfolio-1.webp" title="Casa Residencial" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Más Detalles" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/portfolio-3.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Penthouse de Lujo</h4>
+                <p>Venta/Destacada - Vista al Parque</p>
+                <a href="assets/img/portfolio/portfolio-3.webp" title="Penthouse Lujo" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Más Detalles" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/portfolio-4.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Monoambiente Moderno</h4>
+                <p>Alquiler - Ideal estudiantes / Oficinas</p>
+                <a href="assets/img/portfolio/portfolio-4.webp" title="Monoambiente" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Más Detalles" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/portfolio-portrait-2.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Duplex Norte</h4>
+                <p>Venta - 2 Baños, cochera propia</p>
+                <a href="assets/img/portfolio/portfolio-portrait-2.webp" title="Duplex Norte" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Más Detalles" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/portfolio-portrait-3.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Casa de Campo</h4>
+                <p>Destacada - Amplio terreno forestado</p>
+                <a href="assets/img/portfolio/portfolio-portrait-3.webp" title="Casa Campo" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Más Detalles" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/portfolio-7.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Depto Amoblado</h4>
+                <p>Alquiler Temporal - 1 Dormitorio</p>
+                <a href="assets/img/portfolio/portfolio-7.webp" title="Depto Amoblado" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Más Detalles" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/portfolio-8.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Local Comercial</h4>
+                <p>Venta - Zona de alta afluencia</p>
+                <a href="assets/img/portfolio/portfolio-8.webp" title="Local Comercial" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Más Detalles" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/portfolio-9.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Oficina Corporativa</h4>
+                <p>Destacada - Edificio de categoría</p>
+                <a href="assets/img/portfolio/portfolio-9.webp" title="Oficina" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Más Detalles" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div></div></div>
+
+      </div>
+
+    </section><section id="team" class="team section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Nuestros Asesores</h2>
+        <p>Especialistas capacitados para brindarte la mejor atención en tus transacciones</p>
+      </div><div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-7.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Director General</span>
+                <p>Experto en tasaciones y desarrollo de grandes inversiones inmobiliarias corporativas.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-f-8.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Gestora de Ventas Residenciales</span>
+                <p>Especialista en encontrar el hogar ideal enfocado en las dinámicas familiares.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-6.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>Coordinador de Alquileres</span>
+                <p>Especialista en la gestión ágil, segura y legal de contratos de locación urbana.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-f-4.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Asesora Legal e Hipotecaria</span>
+                <p>Encargada del control notarial, escrituras y viabilidad de créditos hipotecarios.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div></div>
+
+      </div>
+
+    </section><section id="pricing" class="pricing section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Planes Destacados para Propietarios</h2>
+        <p>Elige el nivel de promoción que deseas para comercializar tu propiedad con nosotros</p>
+      </div><div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Plan Básico</h3>
+              <h4><sup>$</sup>0<span> / mes inicial</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Tasación virtual de la propiedad</span></li>
+                <li><i class="bi bi-check"></i> <span>Publicación en nuestra web oficial</span></li>
+                <li><i class="bi bi-check"></i> <span>Cartelería física en el inmueble</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Fotografía profesional y Drone</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Destacado en portales líderes</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Publicar Gratis</a>
+            </div>
+          </div><div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-item featured">
+              <h3>Plan Premium (Recomendado)</h3>
+              <h4><sup>$</sup>29<span> / comisión adaptada</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Tasación profesional in situ</span></li>
+                <li><i class="bi bi-check"></i> <span>Fotografía y video HD del inmueble</span></li>
+                <li><i class="bi bi-check"></i> <span>Publicación destacada en portales</span></li>
+                <li><i class="bi bi-check"></i> <span>Filtro de garantías e inquilinos</span></li>
+                <li><i class="bi bi-check"></i> <span>Asesoramiento legal hasta la firma</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Elegir Plan</a>
+            </div>
+          </div><div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="pricing-item">
+              <h3>Plan Desarrollador</h3>
+              <h4><sup>$</sup>49<span> / pauta mensual</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Todo lo incluido en el Plan Premium</span></li>
+                <li><i class="bi bi-check"></i> <span>Campañas de marketing digital pagadas</span></li>
+                <li><i class="bi bi-check"></i> <span>Renders y Recorridos 3D virtuales</span></li>
+                <li><i class="bi bi-check"></i> <span>Atención de consultas 24/7 con bots</span></li>
+                <li><i class="bi bi-check"></i> <span>Showroom para proyectos en pozo</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Contratar Pack</a>
+            </div>
+          </div></div>
+
+      </div>
+
+    </section><section id="testimonials" class="testimonials section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Casos de Éxito</h2>
+        <p>Lo que dicen nuestros clientes tras haber concretado sus operaciones con nuestra ayuda</p>
+      </div><div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/person/person-m-9.webp" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Propietario Inversor</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Logré vender un local comercial complejo en menos de un mes gracias al equipo de Arsha. Todo el proceso legal fue impecable y transparente.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/person/person-f-5.webp" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Inquilina Residente</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Alquilar con ellos fue sencillísimo. Respondieron mis dudas rápido y el departamento estaba en perfectas condiciones tal como las fotos de la web.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/person/person-f-12.webp" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Compradora de primer hogar</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Me guiaron paso a paso con mi crédito hipotecario bancario. Hoy disfruto de mi propia casa gracias a su paciencia y gran profesionalismo.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/person/person-m-12.webp" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Desarrollador Urbano</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Delegar la venta en pozo de mi edificio a la inmobiliaria fue la mejor decisión. Excelente trato comercial y óptimos resultados.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/person/person-m-13.webp" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Inquilino Corporativo</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Buscábamos nuevas oficinas para nuestra startup y la selección de zonas corporativas que nos ofrecieron fue fantástica. Muy recomendados.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><section id="faq-2" class="faq-2 section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Preguntas Frecuentes</h2>
+        <p>Resolvemos tus dudas principales sobre la compra, venta o alquiler de propiedades.</p>
+      </div><div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Cuánto dura habitualmente un contrato de alquiler residencial?</h3>
+                <div class="faq-content">
+                  <p>La duración legal estándar varía según las leyes locales del país, situándose comúnmente entre los 2 y 3 años para destinos de vivienda familiar, con opción a renovación bajo acuerdo previo de ambas partes.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Qué gastos corresponden al comprador y cuáles al vendedor?</h3>
+                <div class="faq-content">
+                  <p>Generalmente el vendedor absorbe los gastos de impuestos por transferencia patrimonial y tasas de escrituras previas. El comprador asume los honorarios de la notaría, inscripciones en el registro y honorarios de la agencia.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Cómo se determina el precio final de tasación de mi hogar?</h3>
+                <div class="faq-content">
+                  <p>Analizamos variables clave como metros cuadrados totales, antigüedad de la construcción, estado de conservación, servicios del barrio, cercanía a transporte público y los precios recientes de propiedades similares vendidas en la zona.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Qué es el seguro de caución para alquileres?</h3>
+                <div class="faq-content">
+                  <p>Es una alternativa financiera para inquilinos que no disponen de una propiedad física como garantía. Una entidad aseguradora avala el cumplimiento de los pagos del alquiler protegiendo por completo al propietario.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Puedo reservar una propiedad a la distancia de manera online?</h3>
+                <div class="faq-content">
+                  <p>Sí, disponemos de visitas guiadas por videollamada de alta definición y un portal de firmas electrónicas seguras para que puedas formalizar la propuesta de reserva desde cualquier lugar donde estés.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div></div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><section id="subscribe" class="subscribe section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-between align-items-center">
+          <div class="col-lg-6">
+            <div class="cta-content" data-aos="fade-up" data-aos-delay="200">
+              <h2>Recibe alertas de nuevas propiedades</h2>
+              <p>Suscríbete a nuestro boletín inmobiliario y entérate antes que nadie de las mejores oportunidades de inversión y rebajas en alquileres.</p>
+              <form action="forms/newsletter.php" method="post" class="php-email-form cta-form" data-aos="fade-up" data-aos-delay="300">
+                <div class="input-group mb-3">
+                  <input type="email" class="form-control" placeholder="Tu correo electrónico..." aria-label="Email address" aria-describedby="button-subscribe">
+                  <button class="btn btn-primary" type="submit" id="button-subscribe">Suscribirme</button>
+                </div>
+                <div class="loading">Cargando</div>
+                <div class="error-message"></div>
+                <div class="sent-message">¡Tu solicitud de suscripción ha sido enviada con éxito!</div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="cta-image" data-aos="zoom-out" data-aos-delay="200">
+              <img src="assets/img/cta/cta-1.webp" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><section id="recent-blog-postst" class="recent-blog-postst section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Consejos & Actualidad Inmobiliaria</h2>
+        <p>Artículos de interés para ayudarte a tomar la mejor decisión al comprar o alquilar</p>
+      </div><div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog/blog-post-1.webp" class="img-fluid" alt="">
+                <span class="post-date">12 de Diciembre</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">5 claves fundamentales antes de firmar tu primer contrato de alquiler</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Alquileres</span>
+                  </div>
+                </div>
+
+                <hr>
+
+                <a href="blog-details.html" class="readmore stretched-link"><span>Leer Artículo</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </div>
+          </div><div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog/blog-post-2.webp" class="img-fluid" alt="">
+                <span class="post-date">17 de Julio</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Cómo revalorizar el precio de tu departamento sin gastar una fortuna</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Ventas</span>
+                  </div>
+                </div>
+
+                <hr>
+
+                <a href="blog-details.html" class="readmore stretched-link"><span>Leer Artículo</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </div>
+          </div><div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="post-item position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog/blog-post-3.webp" class="img-fluid" alt="">
+                <span class="post-date">05 de Septiembre</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">¿Es buen momento para invertir en proyectos inmobiliarios de pozo?</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Inversiones</span>
+                  </div>
+                </div>
+
+                <hr>
+
+                <a href="blog-details.html" class="readmore stretched-link"><span>Leer Artículo</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </div>
+          </div></div>
+
+      </div>
+
+    </section><section id="contact" class="contact section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contacto</h2>
+        <p>¿Tienes dudas o deseas agendar una visita? Envíanos un mensaje y te responderemos a la brevedad</p>
+      </div><div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Dirección de Oficina</h3>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div><div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Llámanos</h3>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div><div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Escríbenos</h3>
+                  <p>contacto@tuinmobiliaria.com</p>
+                </div>
+              </div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Nombre Completo</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Correo Electrónico</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Asunto / Tipo de Propiedad</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" placeholder="Ej: Consulta por Alquiler de Depto Centro" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Mensaje o Detalles del Inmueble</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" placeholder="Cuéntanos qué estás buscando o las características de la propiedad que deseas vender..." required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Cargando</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Tu mensaje ha sido enviado correctamente. ¡Nos comunicaremos pronto!</div>
+
+                  <button type="submit">Enviar Mensaje</button>
+                </div>
+
+              </div>
+            </form>
+          </div></div>
+
+      </div>
+
+    </section></main>
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Súmate a nuestra Comunidad</h4>
+            <p>Recibe de forma periódica las ofertas flash y las novedades del mercado inmobiliario.</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Suscribirse"></div>
+              <div class="loading">Cargando</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Tu suscripción ha sido registrada con éxito.</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Arsha Inmobiliaria</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Teléfono:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Enlaces Útiles</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Inicio</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Nosotros</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Servicios</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Términos del Servicio</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Nuestros Servicios</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Venta de Casas</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Alquiler de Deptos</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Gestión de Locales</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Tasaciones de Mercado</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Síguenos en Redes</h4>
+          <p>Mira los videos de los recorridos de nuestras propiedades disponibles día a día.</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Arsha</strong> <span>Todos los Derechos Reservados</span></p>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

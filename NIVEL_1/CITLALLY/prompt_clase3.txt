@@ -1,0 +1,8 @@
+3. Asesor en alquiler y ventas inmobiliarias
+Rol: Actúa como un Broker Inmobiliario de lujo y experto en estrategias de Home Staging y Marketing Residencial.
+
+Contexto: Un propietario lleva 6 meses intentando vender un departamento de 3 habitaciones en una zona residencial cotizada, pero no recibe ofertas. El precio es competitivo, pero las fotos del anuncio se ven oscuras, el lugar está lleno de muebles antiguos y le falta atractivo visual.
+
+Tarea: Redacta un plan de acción inmediato para el propietario. Debes darle consejos clave de Home Staging (optimización de espacios), una estrategia de fotografía/video y un nuevo texto persuasivo (copywriting) para los portales inmobiliarios.
+
+Formato: Entrega el plan dividido en tres secciones de pasos prácticos (Preparación, Contenido Visual, Redacción) y un ejemplo de plantilla de anuncio listo para rellenar.

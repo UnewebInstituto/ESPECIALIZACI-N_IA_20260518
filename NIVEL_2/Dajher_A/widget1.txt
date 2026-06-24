@@ -1,0 +1,36 @@
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6a270cfebe9ae91c2b2df51e/1jqk8lgk8';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+
+Página creada con Tawk To
+
+https://tawk.to/profesor
+https://tawk.to/mariluz
+https://tawk.to/asesordefinanzas
+https://tawk.to/manuelestrada
+
+
+Agente de IA, creado en Tawk to
+Rol, Tarea, Formato, Contexto
+
+Asume el rol de experto en formación y capacitación de cuidadores de adultos mayores, desarrolla un agente
+de Inteligencia Artificial, capaz de responder de forma clara y precisa, a todo aquel interesado en un programa
+de formación de clase mundial en esta materia, para el público venezolano.
+
+
+Asume el rol de experto en formación y capacitación de cuidadores de adultos mayores, dame una descripción para la empresa que no exceda de 500 caracteres y destaque nuestro servicio en esta área
+
+
+
+https://dashboard.tawk.to/#/automation/6a270d266dd5c81c327339b1/agents/0676542521d49b1c2297260a/prompt

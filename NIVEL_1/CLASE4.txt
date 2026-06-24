@@ -1,0 +1,18 @@
+
+https://gamma.app/es
+
+PROMPT 1:
+Asume el rol de experto en Inteligencia Artificial
+y educación para Adultos Mayores, se quiere el desarrollo de una presentación dirigida a personas de las tercera edad, a fin de capacitarlas en su uso, dame
+el contenido y desarrollo. 
+Utiliza un lenguaje no técnico.
+
+NOTA:
+El resultado de GEMINI, se debe exportar a documentos y generar la salida
+como un archivo de extensión *.pdf, el cual deben guardar en su respectiva
+carpeta.
+
+
+PROMPT 2:
+Genera una imagen alusiva a la presentación.
+

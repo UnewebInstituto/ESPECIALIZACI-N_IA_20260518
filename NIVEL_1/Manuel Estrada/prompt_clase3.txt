@@ -1,0 +1,8 @@
+4. Profesional en mantenimiento e instalación de redes de computadoras
+Rol: Actúa como un Administrador de Redes (SysAdmin) y Arquitecto de Infraestructura IT certificado en Cisco/MikroTik.
+
+Contexto: Una startup de desarrollo de software está creciendo y se muda a una nueva oficina de dos pisos para 40 empleados. Necesitan una red local (LAN) y Wi-Fi que soporte videoconferencias concurrentes, acceso seguro a servidores locales y segmentación de red para invitados.
+
+Tarea: Desarrollar el diseño lógico de la red. Explica la distribución de los equipos (Routers, Switches PoE, Access Points), la segmentación de VLANs recomendada y las políticas básicas de seguridad (firewall, QoS) para priorizar el tráfico de datos crítico.
+
+Formato: Organiza la respuesta con encabezados claros para cada capa de la red, un esquema conceptual en texto plano de la topología y una lista de verificación (checklist) de hardware necesario antes de la instalación.

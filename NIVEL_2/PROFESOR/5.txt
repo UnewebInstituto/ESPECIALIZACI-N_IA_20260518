@@ -1,0 +1,38 @@
+Esta pantalla corresponde a la interfaz principal de **FileZilla**, uno de los clientes FTP (File Transfer Protocol) más utilizados para administrar y transferir archivos entre tu computadora local y un servidor remoto (como el servidor web donde se aloja una aplicación o la base de conocimientos de un chatbot).
+
+A continuación, se describen las funciones clave de cada una de las zonas numeradas implícitamente en la interfaz:
+
+### 1. Barra de Conexión Rápida (Zona Superior)
+
+Permite establecer una conexión inmediata con el servidor sin necesidad de configurar un perfil permanente. Sus campos son:
+
+* **Servidor:** Dirección IP o dominio del servidor (ej. `ftp.miweb.com` o `sftp.192.168.1.1`).
+* **Nombre de usuario y Contraseña:** Las credenciales de acceso de la cuenta FTP/SFTP.
+* **Puerto:** El canal de comunicación (habitualmente `21` para FTP o `22` para SFTP).
+* **Botón Conexión rápida:** Ejecuta la solicitud de acceso.
+
+### 2. Ventana de Registro de Mensajes (Debajo de la Conexión Rápida)
+
+Es la sección en blanco ubicada justo arriba de los listados de carpetas. Funciona como una **consola de comandos**: muestra en tiempo real las líneas de texto del protocolo (comandos enviados por FileZilla y respuestas del servidor). Es vital para depurar problemas de conexión o errores de permisos (*como el famoso Error 530 o 403*).
+
+### 3. Panel del Sitio Local (Mitad Izquierda)
+
+Muestra el sistema de archivos de tu computadora actual. Está dividido en dos:
+
+* **Árbol de directorios (Arriba):** Permite navegar visualmente por las carpetas (en la imagen estás en `C:\Users\Administrador\`).
+* **Contenido de la carpeta (Abajo):** Muestra los archivos y subcarpetas del directorio seleccionado (`.vscode`, `AppData`, `Desktop`, etc.), junto con su tamaño y fecha de modificación.
+
+### 4. Panel del Sitio Remoto (Mitad Derecha)
+
+Muestra la estructura de archivos en el servidor de destino.
+
+* **Estado actual:** En la imagen dice *"No está conectado a ningún servidor"*. Una vez establecida la conexión, aquí verás las carpetas del servidor (como `public_html`, `var/www`, carpetas de almacenamiento, etc.).
+* **Función principal:** Permite la interacción bidireccional; arrastrar un archivo desde el panel izquierdo al derecho inicia una **subida (upload)**, y arrastrar del derecho al izquierdo inicia una **descarga (download)**.
+
+### 5. Cola de Transferencia (Zona Inferior)
+
+Monitorea el tráfico de archivos en segundo plano a través de tres pestañas:
+
+* **Archivos en cola:** Muestra la lista de archivos pendientes por subir o descargar, su peso y la prioridad.
+* **Transferencias fallidas:** Registra los archivos que no se pudieron transferir debido a microcortes de red, falta de permisos o desconexiones, permitiendo reintentar la operación.
+* **Transferencias satisfactorias:** El historial de los archivos que ya se copiaron correctamente con éxito.

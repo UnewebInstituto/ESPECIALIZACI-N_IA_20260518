@@ -1,0 +1,123 @@
+PROMPT PARA CANVAS DE GEMINI:
+
+Asume el rol de experto en inteligencia artificial, elabora una presentación usando canvas, donde se trate el tema de educación
+para adultos mayores acerca del uso y aprovechamiento de la 
+inteligencia artificial. Se requiere la presentación tenga un
+aspecto motivador hacia el aprendizaje.
+
+Asume el rol de experto en publicidad y mercadeo, un cliente
+solicita un vídeo publicitario para su producto y no sabe de 
+inteligencia artificial, yo le sugiero utilizar dicho recurso
+a fin de producir tal video, se trata de un personaje femenino,
+joven, que dirá un guión elaborado acerca de las bondades del 
+producto e invitando a su adquisición, el escenario será una
+calle transitada de una ciudad. Para un país como Venezuela,
+cuáles serían los honorarios a cobrar por desarrollar tal publicidad,
+apoyado sobre Nano Banana de Gemini. Dame la propuesta detallada.
+
+Freepik AI: Guión de prompt a imagen.
+
+PROMPT DE PRUEBA PARA GENERAR IMAGEN EN FREEPIK:
+Genera la imagen de un personaje femenino, joven, presentando
+las bondades de un producto, invitando a su adquisición, el
+escenario es una calle transitada de una ciudad.
+
+Genera un vídeo corto con la imagen de un personaje femenino, joven, presentando las bondades de un producto, invitando a su adquisición, el
+escenario es una calle transitada de una ciudad.
+
+Genera un audio corto presentando las bondades de un producto, invitando a su adquisición, el escenario es una calle transitada de una ciudad.
+
+¡Hola! Con gusto asumo el rol para guiarte.
+
+Una pequeña precisión técnica para empezar con el pie derecho: la captura de pantalla que compartes corresponde a **Magnific AI** (`magnific.com/app`), una herramienta potentísima que, de hecho, **fue adquirida por Freepik**. Así que estás exactamente en el ecosistema correcto de innovación visual.
+
+Magnific AI comenzó siendo el rey indiscutible del *upscaling* (escalado de imagen) y la reimaginación de detalles, pero hoy en día se ha transformado en una suite creativa de IA muy completa.
+
+Aquí tienes un resumen de lo que puedes lograr con los módulos que ves en tu pantalla:
+
+---
+
+## 🛠️ ¿Qué puedes hacer en Magnific AI?
+
+### 1. Image (Generación, Escalado y Transformación)
+
+Este es el núcleo histórico de la herramienta. No solo te permite crear imágenes desde cero con prompts de texto, sino que sus funciones estrella son:
+
+* **Upscaling & Enhancer:** Tomas una imagen de baja resolución o un diseño pixelado y lo transformas a 4K o 10K con un nivel de fotorrealismo o detalle artístico impresionante. La IA "inventa" texturas (por ejemplo, poros en la piel, fibras en la ropa o detalles en un circuito) de forma coherente.
+* **Relight & Restyle:** Puedes cambiar por completo la iluminación de una escena o transferir el estilo de una imagen a otra.
+
+### 2. Video (Creación y Edición)
+
+* Te permite generar clips de video fluidos de alta calidad a partir de un texto (*Text-to-Video*) o dar la máxima animación y movimiento a una imagen estática (*Image-to-Video*). Es ideal para intros, transiciones o prototipos visuales de alto impacto.
+
+### 3. Spaces (Tu Lienzo Infinito)
+
+* Es un entorno de trabajo colaborativo e infinito (estilo Miro o Figma). Aquí puedes conectar diferentes herramientas visuales, organizar tus flujos de trabajo de diseño, iterar sobre varias versiones de una imagen y estructurar tus proyectos visuales de forma macro sin perderte entre pestañas.
+
+### 4. Audio, 3D y Stock
+
+* **Audio:** Herramientas para clonación de voz, efectos de sonido o pistas de fondo para tus proyectos multimedia.
+* **3D:** Generación y edición de assets tridimensionales con control preciso de texturas, ideal para flujos de trabajo de desarrollo o diseño de producto.
+* **Stock:** Acceso directo a millones de recursos listos para usar e integrar en tus flujos de IA (potenciado directamente por el catálogo de Freepik).
+
+---
+
+> 💡 **En resumen:** Es una solución ideal si eres diseñador, creador de contenido o desarrollador que busca llevar la calidad de sus entregables visuales al nivel más profesional posible (producción cinematográfica o comercial), ahorrando horas de renderizado o edición manual.
+
+¿Hay alguno de estos módulos específicos (como el de imagen o video) con el que quieras empezar a experimentar hoy para tu flujo de trabajo?
+
+Tras la adquisición de Magnific por parte de Freepik, el modelo de acceso ha cambiado un poco para integrarse en su ecosistema. En la **versión gratuita ($0 / mes)**, las posibilidades están diseñadas principalmente para que explores el entorno, pruebes la interfaz y hagas pruebas básicas de concepto, pero tiene limitaciones importantes para proteger los costos de procesamiento en la nube.
+
+Esto es exactamente lo que puedes hacer y sus límites en el plan gratuito:
+
+---
+
+## 📋 ¿Qué incluye la versión gratuita?
+
+* **Acceso a los módulos básicos:** Puedes entrar y explorar las interfaces de los módulos de **Image, Video, Audio y Spaces** (el lienzo infinito) para familiarizarte con los controles, barras de deslizamiento y el funcionamiento de los prompts.
+* **Generaciones diarias limitadas:** Te otorgan una cantidad pequeña de créditos diarios (o tokens de prueba) que te permiten realizar generaciones de imágenes muy básicas o procesamientos estándar.
+* **Uso del Lienzo Infinito (Spaces):** Puedes organizar tus tableros, estructurar flujos visuales y conectar tus ideas en el canvas interactivo de manera inicial.
+* **Exploración de herramientas multimedia:** Probar de manera limitada herramientas de diseño, generación de efectos de sonido o clips de video muy cortos para evaluar si la coherencia visual se adapta a lo que necesitas.
+
+---
+
+## ⚠️ Restricciones clave de la versión gratuita
+
+Si estás pensando en usar la herramienta para proyectos profesionales o de alta exigencia, es importante que tengas en cuenta las barreras del plan gratuito:
+
+* **Sin Escalado de Alta Resolución (High-Res Upscale):** La función estrella de Magnific (escalar a 4K, 8K o más e inventar texturas fotorrealistas hiperdetalladas) **no está disponible** o está extremadamente capada en resolución en este plan. Para ver el verdadero "milagro" de su optimizador, se requiere un plan de pago.
+* **Sin Licencia Comercial:** Las imágenes o recursos que generes bajo la versión gratuita no cuentan con los derechos ni la cobertura de indemnización para uso comercial (es decir, solo sirven para uso personal, académico o pruebas de concepto internas).
+* **Velocidad de procesamiento baja:** Tus tareas entran en una cola de espera estándar. Los usuarios de pago tienen prioridad absoluta en las tarjetas gráficas (GPUs) de los servidores, por lo que tus renders tardarán más tiempo en completarse.
+
+---
+
+> 💡 **Mi recomendación:** Usa la versión gratuita hoy mismo para "jugar" con la interfaz, probar cómo reacciona la IA a tus prompts y medir qué tan intuitivo te resulta el lienzo de **Spaces**. Si descubres que necesitas rescatar imágenes reales a máxima resolución o generar texturas ultra nítidas con propósitos comerciales, los planes de entrada (como el *Essential* dentro del nuevo esquema de Freepik) abren la puerta al verdadero potencial de sus motores de escalado.
+
+Fliki AI: Guión de prompt a vídeo.
+
+¡Excelente! Veo que ya estás dentro de la interfaz principal de Fliki. Como puedes notar en tu pantalla, el diseño está pensado precisamente para simplificar la producción multimedia al máximo sin que tengas que lidiar con complejos editores de línea de tiempo tradicionales.
+
+Como experto en la plataforma, te resumo las principales maravillas que puedes lograr con Fliki AI basándonos en los flujos de trabajo que tienes disponibles:
+
+---
+
+### 1. Creación de Video "Idea a Video" (La caja principal)
+
+Es la barra que ves arriba que dice *"Enter your video idea, script, or blog link..."*. Aquí puedes escribir una idea simple (por ejemplo: *"Haz un video de 30 segundos sobre las ventajas de usar Python en proyectos de IA"*). Fliki redactará el guion, seleccionará clips de stock o imágenes generadas por IA, le pondrá subtítulos dinámicos y le asignará una voz artificial en cuestión de segundos.
+
+### 2. Flujos de Trabajo Especializados (Los recuadros de abajo)
+
+* **Guion a video:** Si ya tienes el texto o el guion de una clase, un curso o un anuncio, lo pegas aquí y la IA se encarga de estructurarlo visualmente en escenas, añadiendo fondos y voz en off automáticamente.
+* **Blog a video:** Ideal para el reciclaje de contenido. Pegas el enlace de un artículo web y Fliki extraerá los puntos clave para convertirlos en un resumen en video interactivo.
+* **Presentación de PowerPoint a video:** Sube tus diapositivas estáticas y Fliki las transformará en un video fluido, narrado y mucho más atractivo para tus estudiantes o clientes.
+* **Edición automática de video & Grabar en video:** Te permiten trabajar con material propio, ya sea subiendo tus grabaciones existentes para que la IA les añada subtítulos automáticos y tomas de apoyo (*b-roll*), o grabando directamente desde la plataforma.
+* **Vacío:** Para cuando prefieres tener el control total desde cero, construyendo escena por escena a tu propio ritmo.
+
+### 3. Modos Alternativos: Voz en Off y Diseño
+
+Justo arriba de la barra de ideas, verás que puedes cambiar el modo:
+
+* **Voz en off:** Si no necesitas video y solo buscas un audio de altísima calidad. Fliki destaca por tener voces neuronales hiperrealistas (en múltiples idiomas y acentos) que clonan la entonación humana de forma sorprendente, ideal para podcasts o narraciones.
+* **Diseño:** Enfocado en la creación de imágenes y contenido visual estático o dinámico para redes.
+
+En resumen, Fliki AI es tu navaja suiza para **automatizar la creación de contenido audiovisual y educativo** a gran escala, permitiéndote pasar de una simple idea a un producto final completamente editado en minutos.

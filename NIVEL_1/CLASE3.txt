@@ -1,0 +1,53 @@
+IA:
+
+GEMINI -- ACCESO LIBRE
+CHATGPT -- RESTRICCIÓN POR UBICACIÓN GEOGRÁFICA
+MONICA -- RESTRICCIÓN POR UBICACIÓN GEOGRÁFICA
+
+REQUIRES DE UNA VPN
+POR EJEMPLO "PROTON"
+
+1. Profesional especialista en sistemas de seguridad y vigilancia
+Rol: Actúa como un Ingeniero Consultor experto en Seguridad Electrónica y Vigilancia IP de alta gama.
+
+Contexto: Un cliente corporativo quiere actualizar el sistema de seguridad de un centro de distribución logístico de 5,000 metros cuadrados que maneja mercancía de alto valor. Actualmente sufren de "puntos ciegos" y falsas alarmas recurrentes con el sistema analógico antiguo.
+
+Tarea: Diseña una propuesta técnica preliminar que incluya el tipo de cámaras (ej. térmicas, domo, analítica de IA), ubicación estratégica, sistemas de control de acceso perimetral y la infraestructura de almacenamiento requerida (NVR/Nube).
+
+Formato: Devuelve la propuesta estructurada en puntos técnicos, dividida por zonas (Perímetro, Accesos, Almacén) y finaliza con una tabla resumen de los equipos recomendados.
+
+2. Asesor en materia financiera y bolsa de valores
+Rol: Actúa como un Asesor Financiero Senior y Gestor de Portafolios certificado (CFA).
+
+Contexto: Un inversor de 35 años tiene un capital de $50,000 USD disponibles. Tiene un perfil de riesgo moderado-alto, busca crecimiento a largo plazo (10-15 años) pero quiere cierta protección contra la inflación actual del mercado.
+
+Tarea: Crea una estrategia de asignación de activos (Asset Allocation) diversificada, explicando qué porcentaje destinarías a acciones (ETFs, Growth), renta fija, commodities o criptoactivos, y la justificación de cada elección según el panorama macroeconómico actual.
+
+Formato: Presenta la información usando un gráfico de distribución sugerido en texto (ej. Acciones: 60%), seguido de viñetas explicativas para cada clase de activo y una sección de "Riesgos a monitorear".
+
+3. Asesor en alquiler y ventas inmobiliarias
+Rol: Actúa como un Broker Inmobiliario de lujo y experto en estrategias de Home Staging y Marketing Residencial.
+
+Contexto: Un propietario lleva 6 meses intentando vender un departamento de 3 habitaciones en una zona residencial cotizada, pero no recibe ofertas. El precio es competitivo, pero las fotos del anuncio se ven oscuras, el lugar está lleno de muebles antiguos y le falta atractivo visual.
+
+Tarea: Redacta un plan de acción inmediato para el propietario. Debes darle consejos clave de Home Staging (optimización de espacios), una estrategia de fotografía/video y un nuevo texto persuasivo (copywriting) para los portales inmobiliarios.
+
+Formato: Entrega el plan dividido en tres secciones de pasos prácticos (Preparación, Contenido Visual, Redacción) y un ejemplo de plantilla de anuncio listo para rellenar.
+
+4. Profesional en mantenimiento e instalación de redes de computadoras
+Rol: Actúa como un Administrador de Redes (SysAdmin) y Arquitecto de Infraestructura IT certificado en Cisco/MikroTik.
+
+Contexto: Una startup de desarrollo de software está creciendo y se muda a una nueva oficina de dos pisos para 40 empleados. Necesitan una red local (LAN) y Wi-Fi que soporte videoconferencias concurrentes, acceso seguro a servidores locales y segmentación de red para invitados.
+
+Tarea: Desarrollar el diseño lógico de la red. Explica la distribución de los equipos (Routers, Switches PoE, Access Points), la segmentación de VLANs recomendada y las políticas básicas de seguridad (firewall, QoS) para priorizar el tráfico de datos crítico.
+
+Formato: Organiza la respuesta con encabezados claros para cada capa de la red, un esquema conceptual en texto plano de la topología y una lista de verificación (checklist) de hardware necesario antes de la instalación.
+
+5. Docente en capacitación para la atención de adultos mayores
+Rol: Actúa como un Coordinador Académico y Especialista en Gerontología Social y Cuidados Asistenciales.
+
+Contexto: Vas a dictar el módulo introductorio de un curso de capacitación dirigido a cuidadores informales (familiares) que van a atender a adultos mayores con dependencia moderada en el hogar. Los alumnos no tienen conocimientos médicos previos y suelen sufrir de altos niveles de estrés (síndrome del cuidador).
+
+Tarea: Diseña el temario y la metodología didáctica para la primera sesión de 4 horas. Debe cubrir: principios de movilidad segura, comunicación asertiva con el adulto mayor y técnicas de autocuidado para el propio cuidador.
+
+Formato: Presenta el diseño en formato de Plan de Clase cronológico (desglosado por horas/minutos), detallando la actividad, el objetivo pedagógico de cada bloque y una lista de recursos didácticos recomendados.

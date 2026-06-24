@@ -1,0 +1,63 @@
+Microsoft Windows [Versión 10.0.20348.5139]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\.Profesores\HENRY_DUQUE\ESPECIALIZACIÓN_IA_20260518\NIVEL_3\PR
+Python 3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC )] on win32
+Type "help", "copyright", "credits" or "license" for more informa
+Ctrl click to launch VS Code Native REPL
+>>> quit()
+
+C:\.Profesores\HENRY_DUQUE\ESPECIALIZACIÓN_IA_20260518\NIVEL_3\PRnv .venv
+
+C:\.Profesores\HENRY_DUQUE\ESPECIALIZACIÓN_IA_20260518\NIVEL_3\PR\activate
+
+
+(.venv) C:\.Profesores\HENRY_DUQUE\ESPECIALIZACIÓN_IA_20260518\NIist 
+Package Version
+------- -------
+pip     26.1.1
+
+(.venv) C:\.Profesores\HENRY_DUQUE\ESPECIALIZACIÓN_IA_20260518\NInstall pandas
+Collecting pandas
+  Downloading pandas-3.0.3-cp314-cp314-win_amd64.whl.metadata (19
+Collecting numpy>=2.3.3 (from pandas)
+  Downloading numpy-2.4.6-cp314-cp314-win_amd64.whl.metadata (6.6
+Collecting python-dateutil>=2.8.2 (from pandas)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.me
+Collecting tzdata (from pandas)
+  Downloading tzdata-2026.2-py2.py3-none-any.whl.metadata (1.4 kB
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Downloading pandas-3.0.3-cp314-cp314-win_amd64.whl (9.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 3.3 MB/s  
+Downloading numpy-2.4.6-cp314-cp314-win_amd64.whl (12.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.5/12.5 MB 1.7 MB/s
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading tzdata-2026.2-py2.py3-none-any.whl (349 kB)
+Installing collected packages: tzdata, six, numpy, python-dateuti
+Successfully installed numpy-2.4.6 pandas-3.0.3 python-dateutil-20 tzdata-2026.2
+
+[notice] A new release of pip is available: 26.1.1 -> 26.1.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(.venv) C:\.Profesores\HENRY_DUQUE\ESPECIALIZACIÓN_IA_20260518\NIist
+Package         Version
+--------------- -----------
+numpy           2.4.6
+pandas          3.0.3
+pip             26.1.1
+python-dateutil 2.9.0.post0
+six             1.17.0
+tzdata          2026.2
+
+(.venv) C:\.Profesores\HENRY_DUQUE\ESPECIALIZACIÓN_IA_20260518\NI
+pyppp     
+(.venv) C:\.Profesores\HENRY_DUQUE\ESPECIALIZACIÓN_IA_20260518\NIVEL_3\PROFESOR>
+(.venv) C:\.Profesores\HENRY_DUQUE\ESPECIALIZACIÓN_IA_20260518\NIVEL_3\PROFESOR>py gemini-code.py
+Dataset cargado. Registros iniciales: 35
+Registros después de eliminar duplicados: 30
+Registros después de eliminar nulos: 30
+Archivo limpio guardado exitosamente como: ventas_limpio.csv
+
+(.venv) C:\.Profesores\HENRY_DUQUE\ESPECIALIZACIÓN_IA_20260518\NIVEL_3\PROFESOR>
