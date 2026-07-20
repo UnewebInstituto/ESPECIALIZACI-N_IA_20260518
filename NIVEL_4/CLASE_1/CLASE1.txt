@@ -1,0 +1,18 @@
+## Módulo 1: Fundamentos de la Comunicación con Máquinas
+
+### Teoría: "El lenguaje de los modelos"
+
+* **¿Qué es el NLP?** La rama de la IA que permite a las máquinas leer, comprender y generar lenguaje humano.
+* **Tokenización:** Cómo la IA divide el texto en "piezas" o fragmentos numéricos.
+* **Arquitectura Transformer (2026):** El "cerebro" que entiende el contexto a través de la atención.
+* **Mecanismo de Atención y MoE (Mixture of Experts):** Explicación simplificada: cómo la IA elige qué experto (parámetros) utilizar para cada consulta específica.
+* **RAG (Generación Aumentada por Recuperación):** Cómo la IA consulta documentos externos para responder sin inventar.
+* **Alucinaciones:** El desafío de la precisión y cómo mitigarlo mediante una buena estructuración del *prompt*.
+
+### Práctica: "La prueba del analista"
+
+1. **Ejercicio:** Entregar a Claude un texto complejo y pedirle que identifique los puntos clave, el tono y los posibles sesgos (ejercicio de análisis de sentimiento).
+2. **Meta:** Comprender la ventana de contexto (hasta 200k tokens) cargando un documento extenso.
+
+---
+https://huggingface.co/models?library=transformers&sort=trending

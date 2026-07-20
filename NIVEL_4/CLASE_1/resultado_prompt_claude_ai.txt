@@ -1,0 +1,32 @@
+Ya revisé el documento: es la **Primera Parte ("Fantine")** de *Los Miserables* de Victor Hugo, en la edición de dominio público de la Fundación Carlos Slim (305 páginas, ~110.000 palabras, 8 libros). Con base en el texto completo, aquí va el análisis.
+
+## Puntos clave
+
+- **Libro I-II (Un justo / La caída):** el obispo Myriel, figura de bondad casi absoluta, perdona el robo de Jean Valjean y le regala los candelabros de plata. Ese acto de gracia es la bisagra moral de toda la parte: Valjean decide "volverse otro hombre".
+- **Libro III-IV (En el año 1817 / Confiar es, a veces, entregar):** contexto social de la época y la entrega de Cosette, hija de Fantine, a la familia Thénardier, que la explota.
+- **Libro V-VI (El descenso / Javert):** Fantine cae en la miseria —vende su cabello, sus dientes y termina en la prostitución— mientras Valjean, ya reinventado como el alcalde "Madeleine", prospera y es perseguido por el inspector Javert.
+- **Libro VII-VIII (La causa de Champmathieu / Reacción):** el clímax moral: Valjean se debate entre dejar que un inocente (Champmathieu) sea condenado en su lugar o revelar su identidad; se entrega, y la parte cierra con la muerte de Fantine.
+
+El hilo conductor es la **tensión entre la ley formal (Javert) y la justicia moral/religiosa (Myriel, Valjean)**, envuelta en una denuncia explícita de la pobreza, la prostitución y el sistema penal francés del siglo XIX.
+
+## Tono de la obra
+
+- **Narrador omnisciente y moralizante**: interviene constantemente con juicios directos ("¡Oh, santa mujer!", apóstrofes al lector), no es un narrador neutro.
+- **Melodramático y de contrastes marcados**: luz/oscuridad, santidad/miseria, gracia/caída — Hugo construye casi cada escena como una oposición moral explícita.
+- **Digresivo**: capítulos enteros se detienen en descripciones sociales, filosóficas o históricas antes de retomar la trama.
+- **Compasivo hacia los marginados, indignado hacia la injusticia institucional**: el tono hacia Fantine y los pobres es de ternura elegíaca; hacia el sistema judicial y la hipocresía burguesa, es sarcástico o directamente acusatorio.
+- **Registro romántico-realista**: emoción exaltada (romanticismo) combinada con detalle social crudo (miseria, hambre, explotación infantil).
+
+## Posibles sesgos en un análisis de sentimientos (automatizado)
+
+Si pensás aplicar NLP/sentiment analysis a este texto, hay varios sesgos a tener en cuenta:
+
+1. **Vocabulario religioso-moral inflando la polaridad positiva**: palabras como "santa", "gracia", "Dios", "caridad" son frecuentes en pasajes que en realidad describen sufrimiento o crítica social (ironía moral). Un léxico estándar las marcaría como positivas fuera de contexto.
+2. **Ironía y sarcasmo narrativo**: Hugo suele describir la hipocresía burguesa o judicial con tono formal/cortés que un modelo léxico-basado no detecta como negativo.
+3. **Narrador vs. personajes**: el análisis a nivel de oración puede confundir el sentimiento del narrador (a menudo compasivo/crítico) con el de los personajes citados (por ejemplo, Javert hablando con frialdad legal).
+4. **Léxico decimonónico y traducción**: es una traducción española de 1862 con vocabulario arcaico; los léxicos de sentimiento modernos (entrenados en corpus contemporáneos, redes sociales, reseñas) pueden no reconocer o mal-puntuar términos como "holocausto" (usado aquí en sentido de sacrificio, no de genocidio), "portera", "fosa común", etc.
+5. **Longitud y digresión**: capítulos filosóficos largos "diluyen" picos emocionales puntuales si se promedia el sentimiento por capítulo en lugar de por escena.
+6. **Sesgo de "final triste" vs. "acto de gracia"**: escenas de redención (candelabros, indulto) y escenas de degradación (venta de dientes, prostitución) pueden promediarse a un sentimiento "neutro", perdiendo la polaridad extrema que Hugo busca deliberadamente.
+7. **Carga de clase social**: el texto retrata la pobreza con dignidad y crítica moral, no con victimización pasiva; modelos entrenados en corpus modernos podrían etiquetar automáticamente los pasajes sobre pobreza como uniformemente "negativos", sin captar el matiz de dignidad/reivindicación que Hugo introduce.
+
+¿Querés que arme un script de sentiment analysis real (por ejemplo con un léxico en español o un modelo tipo BERT) corriéndolo capítulo por capítulo sobre este texto para ilustrar estos sesgos con datos concretos?

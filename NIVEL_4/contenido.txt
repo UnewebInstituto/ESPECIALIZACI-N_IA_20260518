@@ -1,0 +1,20 @@
+Curso 4: Procesamiento del Lenguaje Natural (NLP) con IA
+
+Objetivo: Enseñar a los participantes a utilizar Claude y otras herramientas de IA para procesar, analizar y generar contenido de calidad aplicando NLP sin necesidad de programar. Al finalizar, cada estudiante creará un eBook profesional con Claude y Gamma.app.
+
+Introducción al Procesamiento del Lenguaje Natural (NLP) con IA: tokenización, embeddings, Transformer 2026, RAG y alucinaciones.
+¿Qué es NLP y cómo funciona en la IA? Arquitectura Transformer, MoE y mecanismo de atención.
+
+Herramientas NLP 2026: Claude (texto largo, 200k tokens), Gemini (multimodal), Deepseek V3 (análisis de datos).
+
+Generación y Edición de Contenido con Claude: artículos, guiones, optimización SEO, reescritura y adaptación cultural multiidioma.
+
+Análisis de Documentos y Datos con Claude: contratos de 100+ páginas, análisis de sentimiento, extracción de entidades y síntesis académica.
+
+Creación de un eBook con Claude y Gamma.app: planificación editorial, Claude Projects para coherencia, maquetación y exportación en PDF.
+
+Implementación de IA generativa para creación de contenidos eBook (NLP) con Claude como motor principal.
+
+Organizar capítulos y estructurar la información con Claude Projects: continuidad de contexto entre sesiones.
+
+Proyecto final.
