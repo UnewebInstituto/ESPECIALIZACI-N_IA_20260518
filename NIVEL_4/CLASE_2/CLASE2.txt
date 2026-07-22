@@ -1,0 +1,35 @@
+## Módulo 2: Herramientas del Ecosistema 2026
+
+### Teoría ampliada: "La caja de herramientas inteligente"
+
+En el panorama actual de la inteligencia artificial, no existe una única herramienta que resuelva todas las necesidades de forma óptima. El profesional moderno actúa como un director de orquesta que debe seleccionar el motor adecuado según el tipo de procesamiento cognitivo requerido:
+
+* **Claude:** Diseñado para destacar en **razonamiento profundo, edición de textos largos y estilo literario**. Su arquitectura prioriza la sutileza del lenguaje, la coherencia discursiva y una alta capacidad de retención de contexto, lo que lo convierte en el copiloto ideal para la autoría, redacción de ensayos y argumentación compleja.
+* **Gemini:** Concebido como el **aliado multimodal por excelencia**. Su fortaleza radica en procesar de forma nativa e integrada múltiples formatos de información, incluyendo el manejo avanzado de imágenes, gráficos complejos y datos de audio, facilitando la interpretación visual y auditiva de la información.
+* **Deepseek V3:** Posicionado como un **motor de alto rendimiento en razonamiento lógico y procesamiento de estructuras de datos**. Destaca en la resolución de problemas estructurados, análisis lógico riguroso y manipulación eficiente de flujos de datos complejos.
+
+---
+
+### Práctica guiada: "Comparativa de salidas"
+
+Esta actividad tiene como propósito llevar la teoría a la experimentación directa mediante un enfoque analítico comparativo.
+
+1. **Definición del Ejercicio:**
+* Seleccionar un tema técnico neutral y complejo (por ejemplo, los fundamentos de la computación cuántica, el impacto de las arquitecturas de red o la gestión de riesgos en ciberseguridad).
+* Plantear exactamente el mismo *prompt* o instrucción de síntesis a los tres modelos: *"Genera una síntesis ejecutiva de 300 palabras sobre [Tema Técnico] dirigida a directivos sin perfil técnico"*.
+
+
+2. **Evaluación de Resultados:**
+* Comparar la estructura sintáctica, el vocabulario elegido, el enfoque de la explicación y la jerarquización de la información entregada por Claude, Gemini y Deepseek V3.
+
+
+3. **Meta de Aprendizaje:**
+* Desarrollar el criterio analítico para **identificar la "personalidad" y las fortalezas específicas de cada IA**, permitiendo al estudiante delegar futuras tareas de redacción y análisis en la herramienta más eficiente para cada caso de uso.
+
+
+
+PROMPT PARA LA PRACTICA:
+
+Genera una síntesis ejecutiva de 300 palabras sobre LA INGENIERÍA DE PROMPTS  dirigida a directivos sin perfil técnico
+
+Describe qué marco legal regula el uso de la IA, dame detalles acerca de las restricciones y penalizaciones del caso.

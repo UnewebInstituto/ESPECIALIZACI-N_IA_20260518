@@ -1,0 +1,59 @@
+# Síntesis Ejecutiva: Ingeniería de Prompts
+
+La ingeniería de prompts es la disciplina de diseñar instrucciones efectivas para obtener resultados precisos y útiles de sistemas de inteligencia artificial generativa (como ChatGPT o Claude). No requiere programar: se trata de comunicarse con claridad y estructura, igual que se redactaría un briefing para un colaborador nuevo.
+
+**¿Por qué importa a nivel directivo?**
+
+La calidad de las instrucciones determina directamente el retorno de la inversión en herramientas de IA. Un equipo que sabe "pedir bien" puede multiplicar su productividad en tareas como redacción, análisis de datos, atención al cliente o generación de reportes; uno que no lo sabe hacer obtiene resultados genéricos, imprecisos o inútiles, generando frustración y subutilización de licencias ya pagadas.
+
+**Principios clave (sin tecnicismos):**
+
+1. **Contexto primero**: cuanta más información relevante se entregue (objetivo, audiencia, restricciones), mejor la respuesta.
+2. **Instrucciones específicas**: pedir "un resumen ejecutivo de 200 palabras en tono formal" da mejores resultados que "resume esto".
+3. **Ejemplos**: mostrar un modelo de lo que se espera acelera y mejora la precisión.
+4. **Iteración**: rara vez la primera respuesta es la final; refinar el pedido es parte normal del proceso, no un fracaso.
+5. **Verificación humana**: la IA puede cometer errores factuales; siempre debe haber revisión antes de usar el resultado en decisiones críticas.
+
+**Implicación estratégica**
+
+Invertir en capacitación básica de ingeniería de prompts para equipos administrativos, comerciales y de soporte tiene un costo bajo y un impacto alto: mejora la calidad de los entregables generados con IA, reduce tiempos de retrabajo y democratiza el acceso a estas herramientas sin depender de perfiles técnicos.
+
+**Recomendación**
+
+Considerar esta competencia como una habilidad transversal de alfabetización digital —similar al uso de hojas de cálculo hace dos décadas— e incluirla en programas de capacitación interna a corto plazo.
+
+
+# Marco Legal de la IA: Regulación, Restricciones y Sanciones
+
+## El referente global: EU AI Act (Reglamento UE 2024/1689)
+
+Es actualmente el marco regulatorio más completo y estricto del mundo, con aplicación plena desde el 2 de agosto de 2026. Aunque es europeo, afecta a cualquier empresa —de cualquier país— que ofrezca o utilice sistemas de IA dentro de la UE ("efecto Bruselas").
+
+### Enfoque basado en riesgo
+La norma clasifica los sistemas de IA en cuatro niveles:
+
+- **Riesgo inaceptable** (prohibido): manipulación subliminal, scoring social, reconocimiento de emociones en el trabajo/escuela, ciertas categorías de vigilancia biométrica.
+- **Alto riesgo**: sistemas usados en scoring crediticio, concesión de préstamos y evaluación automatizada de clientes; filtrado de currículums y evaluación de candidatos; diagnóstico asistido y triaje clínico; prestaciones sociales y administración de justicia. Requieren evaluación de conformidad, documentación técnica y supervisión humana.
+- **Riesgo limitado**: chatbots y sistemas de reconocimiento de emociones enfrentan obligaciones de transparencia — los usuarios deben ser informados de que interactúan con IA, y el contenido generado (deepfakes, texto, audio, video) debe etiquetarse.
+- **Riesgo mínimo**: videojuegos con IA o filtros de spam, en gran medida no regulados.
+
+### Sanciones
+El régimen sancionador es de los más severos en Europa:
+
+- **Prácticas prohibidas**: multas de hasta 35 millones de euros o el 7% del volumen de negocio mundial.
+- **Otras infracciones** (incumplimiento de obligaciones de sistemas de alto riesgo): multas de hasta 15 millones de euros o el 3% del volumen de negocios anual.
+- Para pymes, se aplica el importe menor entre la cifra fija y el porcentaje de facturación, aunque incluso una pyme con 5 millones de facturación puede enfrentar hasta 150.000 euros en caso de infracción grave.
+
+### Aplicación en España (ejemplo de transposición nacional)
+El régimen sancionador será gestionado por la AESIA (Agencia Española de Supervisión de la IA), creada por Real Decreto 729/2023, con sede en A Coruña. Además, el anteproyecto español de ley para el buen uso y gobernanza de la IA prevé multas de hasta 35 millones de euros o el 7% del volumen de negocio mundial para prácticas prohibidas.
+
+### Novedades recientes
+Un frente adicional se abre con la Directiva 2024/2853 sobre responsabilidad por productos defectuosos, que incluye los sistemas de IA dentro del concepto de "producto" a efectos de responsabilidad objetiva, cuya transposición vence en diciembre de 2026.
+
+## Panorama fuera de la UE
+
+- **Estados Unidos**: no existe una ley federal unificada; hay órdenes ejecutivas y regulación estatal fragmentada (ej. leyes de California y Colorado sobre IA en empleo/discriminación).
+- **China**: regulación específica por caso de uso (algoritmos de recomendación, deepfakes, IA generativa) con registro obligatorio ante el regulador.
+- **Latinoamérica**: la mayoría de países aún no tiene ley integral; existen anteproyectos (Brasil, Chile, Perú) inspirados parcialmente en el modelo europeo, aplicando mientras tanto normativa de protección de datos existente.
+
+¿Te interesa que profundice en algún país o sector específico (por ejemplo, cómo aplicaría esto a contenido educativo o cursos online, dado tu trabajo en UNEWEB)?

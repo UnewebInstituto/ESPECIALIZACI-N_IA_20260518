@@ -1,0 +1,88 @@
+Este es un diseño instruccional estructurado bajo el enfoque de **Aprendizaje Basado en Proyectos (ABP)**. La teoría está diseñada para ser comprensible sin tecnicismos excesivos, mientras que la práctica garantiza la aplicación inmediata.
+
+---
+
+# Curso: Procesamiento del Lenguaje Natural (NLP) con IA
+
+## Módulo 1: Fundamentos de la Comunicación con Máquinas
+
+### Teoría: "El lenguaje de los modelos"
+
+* **¿Qué es el NLP?** La rama de la IA que permite a las máquinas leer, comprender y generar lenguaje humano.
+* **Tokenización:** Cómo la IA divide el texto en "piezas" o fragmentos numéricos.
+* **Arquitectura Transformer (2026):** El "cerebro" que entiende el contexto a través de la atención.
+* **Mecanismo de Atención y MoE (Mixture of Experts):** Explicación simplificada: cómo la IA elige qué experto (parámetros) utilizar para cada consulta específica.
+* **RAG (Generación Aumentada por Recuperación):** Cómo la IA consulta documentos externos para responder sin inventar.
+* **Alucinaciones:** El desafío de la precisión y cómo mitigarlo mediante una buena estructuración del *prompt*.
+
+### Práctica: "La prueba del analista"
+
+1. **Ejercicio:** Entregar a Claude un texto complejo y pedirle que identifique los puntos clave, el tono y los posibles sesgos (ejercicio de análisis de sentimiento).
+2. **Meta:** Comprender la ventana de contexto (hasta 200k tokens) cargando un documento extenso.
+
+---
+
+## Módulo 2: Herramientas del Ecosistema 2026
+
+### Teoría: "La caja de herramientas inteligente"
+
+* **Claude:** El especialista en razonamiento profundo, edición de textos largos y estilo literario.
+* **Gemini:** El aliado multimodal (manejo de imágenes, gráficos y audio).
+* **Deepseek V3:** El motor de razonamiento lógico y procesamiento de estructuras de datos.
+
+### Práctica: "Comparativa de salidas"
+
+1. **Ejercicio:** Tomar un mismo tema técnico y pedir a cada modelo que genere una síntesis ejecutiva.
+2. **Meta:** Identificar la "personalidad" y fortalezas de cada IA para la redacción y análisis.
+
+---
+
+## Módulo 3: Creación de Contenido Avanzado y SEO
+
+### Teoría: "El arte del prompting para escritores"
+
+* **Optimización SEO:** Uso de lenguaje semántico y jerarquía de encabezados.
+* **Adaptación Cultural:** Ajuste de tono y registro lingüístico según la audiencia (ej. formal, cercano, académico).
+
+### Práctica: "Transformación de contenidos"
+
+1. **Ejercicio:** Convertir una noticia técnica en un guion de video para redes sociales y un artículo optimizado para buscadores (SEO).
+2. **Meta:** Aprender a reescribir con Claude especificando "reglas de estilo" estrictas.
+
+---
+
+## Módulo 4: Proyecto Final – El eBook Profesional
+
+### Fase 1: Planificación Editorial con Claude Projects
+
+* **Teoría:** Importancia de la coherencia.
+* **Práctica:** Configurar un **"Claude Project"**. Subir bibliografía base, definir el *Tone of Voice* del autor y crear un esquema de capítulos en un único hilo de chat para que Claude mantenga la memoria a largo plazo.
+
+### Fase 2: Redacción y Estructura
+
+* **Práctica:** Generación de contenido capítulo a capítulo.
+* *Prompt clave:* "Actúa como un editor senior. Utilizando el estilo definido en los documentos base, redacta el capítulo [X] centrándote en [Y]".
+
+
+
+### Fase 3: Maquetación con Gamma.app
+
+* **Teoría:** Diseño visual automatizado.
+* **Práctica:** Exportar el contenido estructurado de Claude a **Gamma.app**. Usar el modo "Importar" o "Texto a presentación/documento" para convertir el texto plano en un eBook estéticamente profesional.
+
+---
+
+## Rúbrica de Evaluación del Proyecto Final
+
+| Criterio | Excelente (5) | Satisfactorio (3) | Necesita Mejora (1) |
+| --- | --- | --- | --- |
+| **Coherencia** | El texto mantiene un tono uniforme de inicio a fin. | Hay variaciones menores en el estilo. | El texto se siente fragmentado. |
+| **Estructura** | Uso claro de títulos, subtítulos y jerarquía. | Estructura básica pero funcional. | Falta de organización lógica. |
+| **Uso de IA** | Integración eficiente de Claude para redacción y Gamma para diseño. | Uso correcto de herramientas, pero con ajustes manuales excesivos. | Dificultad técnica en el uso de las plataformas. |
+| **Calidad NLP** | Extracción precisa de conceptos sin alucinaciones. | El contenido es correcto pero falta profundidad. | Contenido genérico o con errores factuales. |
+
+---
+
+**Nota para el Facilitador:** Durante la ejecución, enfatice que el estudiante es el **"Director Editorial"**. La IA no escribe el libro; la IA ejecuta las instrucciones del estudiante, quien debe supervisar cada paso para asegurar la calidad final.
+
+¿Te gustaría que desarrollemos alguna de estas sesiones con un ejercicio específico para el primer encuentro?

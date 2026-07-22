@@ -1,0 +1,9 @@
+Prompt sugerido a Claude AI
+
+He anexado la novela los Cien años de Soledad de Gabriel García Marquez, quiero que identifiques los puntos clave, el tono de la obra y los posibles sesgos en un análisis de sentimientos.
+
+Prompt sugerido a Gemini AI, a partir del análisis de Claude.
+
+Crea una imagen con el mapa de conceptos producto del análisis que se indica a continuación:
+
+

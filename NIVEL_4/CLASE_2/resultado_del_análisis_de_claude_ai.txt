@@ -1,0 +1,28 @@
+Confirmé que es la novela completa (291 páginas, ~142.000 palabras). Como es una obra bajo derechos de autor vigentes, la reviso a fondo pero sin citar fragmentos textuales — todo en base a un resumen/paráfrasis del contenido.
+
+## Puntos clave
+
+- **Fundación y ciclo de Macondo**: la novela sigue seis generaciones de la familia Buendía desde la fundación del pueblo por José Arcadio Buendía y Úrsula Iguarán hasta su desaparición final, arrasado por un huracán bíblico que cumple la profecía escrita en los pergaminos de Melquíades.
+- **Repetición de nombres y destinos**: los Aureliano tienden a la introspección y el aislamiento; los José Arcadio, a la impulsividad y la fuerza física. Esta repetición onomástica refuerza la idea de un tiempo cíclico e inevitable, no lineal.
+- **Soledad como eje temático**: cada personaje —el coronel Aureliano Buendía tras sus 32 guerras, Úrsula en su longevidad, Amaranta en su renuncia al amor, Fernanda en su rigidez— termina encerrado en una forma distinta de aislamiento, incluso rodeado de familia.
+- **Historia colombiana transfigurada**: las guerras civiles del siglo XIX, la llegada de la compañía bananera extranjera y la masacre de los trabajadores (inspirada en la masacre de las bananeras de 1928) aparecen tratadas con la misma naturalidad que los eventos sobrenaturales.
+- **El realismo mágico como mecanismo estructural**: ascensiones al cielo, lluvias de flores, fantasmas que conviven con los vivos y una plaga de insomnio colectivo se narran con el mismo tono neutro que los hechos cotidianos, sin marcar la diferencia entre lo real y lo maravilloso.
+- **Cierre autorreferencial**: el manuscrito de Melquíades resulta ser la narración de la propia estirpe, y su lectura final coincide con el fin de Macondo, cerrando la novela sobre sí misma.
+
+## Tono de la obra
+
+- **Narrador omnisciente e imperturbable**: relata lo extraordinario y lo trivial con la misma cadencia, sin asombro ni juicio explícito — es la marca distintiva del realismo mágico.
+- **Ritmo acumulativo y envolvente**: oraciones largas, enumeraciones y saltos temporales anticipados (el recurso de adelantar el desenlace de un personaje al inicio de su historia) generan una sensación de destino ineludible.
+- **Ironía melancólica**: hay humor soterrado en las exageraciones (la peste del insomnio, la lluvia de cuatro años), pero conviven con una tristeza de fondo por la soledad y el olvido.
+- **Sensorialidad exuberante**: abundan los detalles físicos, olores, colores y objetos, propios del barroquismo caribeño que caracteriza el estilo de García Márquez.
+- **Fatalismo cíclico**: el tono general sugiere que la historia se repite y que ningún personaje escapa a un patrón trazado de antemano.
+
+## Posibles sesgos en un análisis de sentimientos (automatizado)
+
+1. **Neutralidad narrativa ante eventos extremos**: como lo mágico y lo trágico se narran con el mismo tono llano, un modelo de sentimiento puede clasificar como "neutro" escenas de violencia extrema (la masacre bananera) o de maravilla (ascensiones, apariciones), perdiendo por completo su carga emocional real.
+2. **Ironía y exageración hiperbólica**: frases sobre plagas, guerras o lluvias interminables usan la hipérbole con fines poéticos, no informativos; un léxico estándar puede leerlas literalmente y asignarles polaridad negativa desproporcionada o, al revés, no captar el humor implícito.
+3. **Densidad de nombres repetidos**: al reutilizarse los mismos nombres (Aureliano, José Arcadio, Remedios) generación tras generación, un análisis a nivel de entidad puede confundir el sentimiento asociado a un personaje con el de otro de generaciones distintas.
+4. **Mezcla de registros históricos y fantásticos**: pasajes que describen las guerras civiles o la represión de la compañía bananera (con connotación política real) están entrelazados con pasajes fantásticos; un modelo puede tratarlos con la misma métrica sin distinguir crítica histórica de fabulación.
+5. **Estructura no lineal**: la novela anticipa muertes y desenlaces al comienzo de cada historia, así que el "arco emocional" de un capítulo no sigue una curva estándar de tensión-resolución; los modelos de análisis de sentimiento por secuencia temporal pueden malinterpretar la dirección del arco.
+6. **Traducción y regionalismos caribeños**: vocabulario específico del español caribeño y colombiano (términos de flora, fauna, costumbres) puede no estar bien representado en léxicos de sentimiento entrenados en corpus generalistas, generando puntuaciones neutras por desconocimiento léxico antes que por ausencia real de carga emocional.
+7. **Amor y soledad como polos ambiguos**: muchas escenas de intimidad familiar o amorosa terminan asociadas al aislamiento o la pérdida (por ejemplo, relaciones que mezclan ternura y tragedia), lo que puede generar señales contradictorias en un análisis de polaridad simple si no se pondera el contexto narrativo completo.
