@@ -1,0 +1,1025 @@
+Asume el rol de experto en redacción de documentos electrónicos, define ¿qué es un eBook y qué contine?
+
+Un **eBook** (o libro electrónico) es una publicación digital concebida, maquetada y distribuida para ser leída en dispositivos electrónicos como e-readers (Kindle, Kobo), tabletas, teléfonos inteligentes u ordenadores.
+
+A diferencia de un documento PDF estándar o una entrada de blog, un eBook se estructura bajo estándares de formato refluible (*reflowable text*) o de maquetación fija (como ePub o MOBI), lo que permite que el texto y los elementos visuales se adapten de forma fluida al tamaño de pantalla de cualquier lector.
+
+---
+
+### ¿Qué contiene un eBook?
+
+Un eBook profesional combina estructura editorial clásica con componentes digitales interactivos. Se compone de tres capas principales:
+
+#### 1. Estructura Editorial Basal
+
+* **Página de portada:** Imagen en alta resolución optimizada para visualización digital.
+* **Metadatos e información legal:** Título, autor, ISBN digital, derechos de autor y número de versión.
+* **Tabla de contenidos (Índice dinámico):** Lista de capítulos con hipervínculos internos para navegación directa.
+* **Cuerpo del texto:** Capítulos o secciones organizados de forma secuencial y legible.
+* **Página de cierre / Llamado a la acción (CTA):** Enlaces a la web del autor, redes sociales o productos relacionados.
+
+#### 2. Elementos Visuales y Jerarquía de Texto
+
+* **Tipografía adaptativa:** Fuentes optimizadas para lectura en pantalla que responden a las preferencias de tamaño del usuario.
+* **Recursos gráficos integrados:** Diagramas, tablas e imágenes de alta densidad tipográfica comprimidas sin pérdida de calidad.
+* **Destacados de diseño:** Cajas de texto (*callouts*), citas destacadas (*pull quotes*) y divisores de sección.
+
+#### 3. Componentes Interactivos y Funcionales
+
+* **Hiperenlaces:** Conexiones internas (glosario, notas al pie) y externas (sitios web, fuentes bibliográficas).
+* **Marcadores y notas del lector:** Espacios optimizados para la interacción activa del usuario.
+* **Diseño refluible o fijo:** Código base (HTML5/CSS3) que ajusta la distribución del contenido según la orientación o dimensiones del dispositivo.
+
+TÍTULOS:
+
+Manuel: La Inflación en Venezuela
+
+Mari: Derecho condominial
+
+Jhuliet: Alteración del ADN para reducir riesgo del Alzhaimer y diabetes.
+
+Profesor: Alfabetización de adultos mayores para el uso de la IA.
+
+Toma el siguiente título: "Alfabetización de adultos mayores para el uso de la IA", desarrolla la maquetación y el contenido de un eBook, para este título.
+
+```python
+import os
+from weasyprint import HTML
+
+html_content = """<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Alfabetización de adultos mayores para el uso de la IA</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 20mm 15mm;
+            background-color: #fcfbfa;
+            @bottom-center {
+                content: "Página " counter(page);
+                font-family: 'Helvetica Neue', Arial, sans-serif;
+                font-size: 9pt;
+                color: #666;
+            }
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            font-size: 11pt;
+            line-height: 1.65;
+            color: #2c3e50;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Front Page / Cover */
+        .cover {
+            page-break-after: always;
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+
+        .cover-badge {
+            display: inline-block;
+            background-color: #e8f4f8;
+            color: #1a5b6e;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 10pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            padding: 6px 16px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+
+        .cover-title {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 26pt;
+            font-weight: 800;
+            color: #112d4e;
+            line-height: 1.25;
+            margin: 0 0 20px 0;
+        }
+
+        .cover-subtitle {
+            font-size: 14pt;
+            font-style: italic;
+            color: #4a5568;
+            max-width: 85%;
+            margin: 0 auto 50px auto;
+        }
+
+        .cover-box {
+            background-color: #ffffff;
+            border: 2px solid #3f72af;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 40px 20px;
+            text-align: left;
+        }
+
+        .cover-box h3 {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            color: #112d4e;
+            margin-top: 0;
+            font-size: 13pt;
+        }
+
+        .cover-footer {
+            margin-top: 60px;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 10pt;
+            color: #718096;
+        }
+
+        /* Headings */
+        h1 {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 18pt;
+            color: #112d4e;
+            border-bottom: 2px solid #3f72af;
+            padding-bottom: 8px;
+            margin-top: 30px;
+            margin-bottom: 18px;
+            page-break-after: avoid;
+        }
+
+        h2 {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 14pt;
+            color: #1f4e79;
+            margin-top: 24px;
+            margin-bottom: 12px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 12pt;
+            color: #2c3e50;
+            margin-top: 18px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 14px;
+            text-align: justify;
+        }
+
+        /* Callout Boxes */
+        .callout {
+            background-color: #f0f7ff;
+            border-left: 5px solid #3f72af;
+            padding: 14px 18px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+            page-break-inside: avoid;
+        }
+
+        .callout-title {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-weight: bold;
+            color: #112d4e;
+            margin-bottom: 6px;
+            font-size: 11pt;
+        }
+
+        .warning-box {
+            background-color: #fff8f0;
+            border-left: 5px solid #dd6b20;
+            padding: 14px 18px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+            page-break-inside: avoid;
+        }
+
+        .warning-title {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-weight: bold;
+            color: #9c4221;
+            margin-bottom: 6px;
+            font-size: 11pt;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 10.5pt;
+        }
+
+        th {
+            background-color: #112d4e;
+            color: #ffffff;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+        }
+
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+            vertical-align: top;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f7fafc;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 16px;
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Example prompts formatting */
+        .prompt-example {
+            background-color: #f4f6f8;
+            border: 1px dashed #a0aec0;
+            border-radius: 6px;
+            padding: 12px 16px;
+            margin: 12px 0;
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            color: #2d3748;
+        }
+
+        /* TOC */
+        .toc {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            padding: 20px 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .toc-item {
+            display: table;
+            width: 100%;
+            margin-bottom: 10px;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 11pt;
+        }
+
+        .toc-title {
+            display: table-cell;
+            font-weight: bold;
+            color: #112d4e;
+        }
+
+        .toc-dots {
+            display: table-cell;
+            border-bottom: 1px dotted #cbd5e0;
+            width: 100%;
+        }
+
+        .toc-page {
+            display: table-cell;
+            text-align: right;
+            padding-left: 10px;
+            color: #4a5568;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- PORTADA -->
+    <div class="cover">
+        <div class="cover-badge">Guía Práctica e Inclusiva</div>
+        <h1 class="cover-title">Alfabetización de Adultos Mayores para el Uso de la IA</h1>
+        <div class="cover-subtitle">Descubre cómo la Inteligencia Artificial puede convertirse en tu asistente personal, aliado cognitivo y compañero diario en la era digital.</div>
+        
+        <div class="cover-box">
+            <h3>Objetivo de este eBook:</h3>
+            <p style="margin-bottom:0;">Brindar a las personas adultas mayores y a sus educadores una metodología amigable, accesible y libre de modismos técnicos complejos para comprender, dominar y aprovechar con seguridad las herramientas de Inteligencia Artificial Generativa en la vida cotidiana.</p>
+        </div>
+
+        <div class="cover-footer">
+            <p><strong>Edición Digital</strong> | Colección Tecnologías Inclusivas</p>
+        </div>
+    </div>
+
+    <!-- TABLA DE CONTENIDOS -->
+    <h1>Índice de Contenidos</h1>
+    <div class="toc">
+        <div class="toc-item">
+            <span class="toc-title">Introducción: Perdiendo el miedo a la Inteligencia Artificial</span>
+        </div>
+        <div class="toc-item">
+            <span class="toc-title">Capítulo 1: ¿Qué es la IA y cómo puede ayudarte cada día?</span>
+        </div>
+        <div class="toc-item">
+            <span class="toc-title">Capítulo 2: Primeros pasos y cómo "conversar" con un asistente</span>
+        </div>
+        <div class="toc-item">
+            <span class="toc-title">Capítulo 3: Aplicaciones prácticas para la vida diaria</span>
+        </div>
+        <div class="toc-item">
+            <span class="toc-title">Capítulo 4: Seguridad, privacidad y prevención de engaños</span>
+        </div>
+        <div class="toc-item">
+            <span class="toc-title">Capítulo 5: Taller práctico con ejercicios guiados</span>
+        </div>
+        <div class="toc-item">
+            <span class="toc-title">Glosario amigable de términos tecnológicos</span>
+        </div>
+    </div>
+
+    <!-- INTRODUCCIÓN -->
+    <h1>Introducción: Perdiendo el miedo a la Inteligencia Artificial</h1>
+    <p>Durante décadas, el avance tecnológico se ha presentado a menudo como algo lejano, complejo y reservado para especialistas o jóvenes. Sin embargo, la llegada de la <strong>Inteligencia Artificial Generativa (IA)</strong> representa una oportunidad histórica de inclusión y facilitación cotidiana para los adultos mayores.</p>
+    
+    <p>A diferencia de los programas informáticos tradicionales que requerían memorizar comandos complejos, la IA actual nos permite interactuar mediante <strong>lenguaje natural</strong>. Es decir, basta con escribir o hablar como lo harías con un amigo o un colaborador para obtener respuestas útiles, inmediatas y comprensibles.</p>
+
+    <div class="callout">
+        <div class="callout-title">Idea Clave</div>
+        <p style="margin-bottom:0;">La Inteligencia Artificial no viene a reemplazar tu criterio ni tu experiencia de vida; es un copiloto paciente que nunca se cansa de responder preguntas ni de explicar las cosas cuantas veces lo necesites.</p>
+    </div>
+
+    <!-- CAPÍTULO 1 -->
+    <h1>Capítulo 1: ¿Qué es la IA y cómo puede ayudarte cada día?</h1>
+    <p>Para entender la IA sin complicaciones, imagina que tienes a tu disposición a un <strong>bibliotecario y secretario personal hipereficiente</strong>. Este asistente ha leído millones de libros, artículos y manuales, y está disponible las 24 horas del día para ayudarte a buscar información, redactar cartas o resolver dudas cotidianas.</p>
+
+    <h2>Beneficios directos para la calidad de vida:</h2>
+    <ul>
+        <li><strong>Estimulación cognitiva:</strong> Realizar ejercicios de memoria, juegos de palabras, trivias de historia o aprender nuevos idiomas a tu propio ritmo.</li>
+        <li><strong>Autonomía en trámites y lectura:</strong> Resumir cartas largas, interpretar documentos administrativos con lenguaje enrevesado o explicar prospectos de medicamentos de forma sencilla (siempre bajo supervisión médica).</li>
+        <li><strong>Creatividad y entretenimiento:</strong> Generar listas de lectura personalizadas, itinerarios de viaje, recetas según los ingredientes que tienes en casa o incluso escribir cuentos para tus nietos.</li>
+        <li><strong>Apoyo en la comunicación:</strong> Redactar correos electrónicos formales, mensajes de felicitación o cartas dirigidas a administradores o entidades.</li>
+    </ul>
+
+    <!-- CAPÍTULO 2 -->
+    <h1>Capítulo 2: Primeros pasos y cómo "conversar" con un asistente</h1>
+    <p>Para comunicarse con una herramienta de IA (como ChatGPT, Gemini o Claude), se utiliza lo que en tecnología se llama una <strong>indicación o prompt</strong>. Piensa en el prompt simplemente como la instrucción o pregunta que le haces al asistente.</p>
+
+    <h2>La Fórmula de las 3 C para una buena pregunta:</h2>
+    <ol>
+        <li><strong>Contexto:</strong> Explícale quién eres o qué situación tienes.</li>
+        <li><strong>Clarity (Claridad):</strong> Di exactamente qué necesitas que haga.</li>
+        <li><strong>Format (Formato):</strong> Indícale cómo quieres la respuesta (ej. "en un párrafo corto", "en una lista numerada", "con lenguaje sencillo").</li>
+    </ol>
+
+    <div class="prompt-example">
+        <strong>Ejemplo de pregunta efectiva:</strong><br>
+        "Soy un adulto mayor de 70 años. Quiero preparar una cena ligera con pollo, espinacas y zanahorias que tengo en la heladera. Por favor, dame una receta sencilla de 4 pasos, explicada sin términos culinarios difíciles."
+    </div>
+
+    <!-- CAPÍTULO 3 -->
+    <h1>Capítulo 3: Aplicaciones prácticas para la vida diaria</h1>
+    <p>A continuación, se presentan casos reales de uso diario diseñados para mejorar la independencia y el confort de las personas mayores:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 30%;">Área de Uso</th>
+                <th style="width: 70%;">Ejemplo Práctico de Instrucción a la IA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Salud e Bienestar</strong></td>
+                <td>"Tengo este texto del prospecto de un medicamento. Explícame en términos muy sencillos qué significa 'administración posprandial' y para qué sirve."</td>
+            </tr>
+            <tr>
+                <td><strong>Hogar y Organización</strong></td>
+                <td>"Ayúdame a organizar un plan semanal para regar mis plantas de interior y recordar cuándo debo airear el balcón."</td>
+            </tr>
+            <tr>
+                <td><strong>Ocio y Memoria</strong></td>
+                <td>"Hazme un cuestionario de 5 preguntas sobre la historia de los años 60 para ejercitar mi memoria. Dame las respuestas al final."</td>
+            </tr>
+            <tr>
+                <td><strong>Redacción Familiar</strong></td>
+                <td>"Escribe un mensaje cariñoso y breve para mi nieta que se graduó de la universidad, resaltando lo orgulloso que estoy de ella."</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- CAPÍTULO 4 -->
+    <h1>Capítulo 4: Seguridad, privacidad y prevención de engaños</h1>
+    <p>Al igual que al navegar por internet o usar el teléfono móvil, el uso de la IA requiere seguir ciertas normas básicas de autocuidado y seguridad digital.</p>
+
+    <div class="warning-box">
+        <div class="warning-title">Reglas de Oro de la Seguridad Digital</div>
+        <ul>
+            <li><strong>Nunca compartas datos sensibles:</strong> Jamás ingreses contraseñas, números de tarjetas de crédito, claves bancarias o datos de identificación personal (DNI/cédula) en las ventanas de chat.</li>
+            <li><strong>Verifica la información crítica:</strong> La IA puede cometer errores o "alucinar" datos. Para decisiones médicas, financieras o legales importantes, consulta siempre con un profesional humano.</li>
+            <li><strong>Cuidado con los enlaces externos:</strong> Si una IA o una página web sospechosa te pide descargar un archivo o hacer clic en un enlace no verificado, ignóralo.</li>
+        </ul>
+    </div>
+
+    <!-- CAPÍTULO 5 -->
+    <h1>Capítulo 5: Taller práctico con ejercicios guiados</h1>
+    <p>Pon a prueba tus conocimientos con estos 3 ejercicios sencillos. Puedes copiarlos o dictarlos a tu asistente virtual preferido:</p>
+
+    <h3>Ejercicio 1: Tu recomendador de lectura</h3>
+    <div class="prompt-example">
+        "Me gustan mucho las novelas históricas ambientadas en el siglo XIX y los libros de misterio suaves. Recomiéndame 3 libros fáciles de conseguir con una breve descripción de cada uno."
+    </div>
+
+    <h3>Ejercicio 2: Explicador de noticias o términos confusos</h3>
+    <div class="prompt-example">
+        "He escuchado en las noticias el término 'cambio climático global'. Explícamelo como si fueras un profesor amable, en 2 párrafos cortos y sin usar palabras técnicas."
+    </div>
+
+    <h3>Ejercicio 3: Organizador de caminatas o actividades</h3>
+    <div class="prompt-example">
+        "Diseña una rutina de ejercicios suaves de estiramiento de 10 minutos para hacer por las mañanas sentado en una silla."
+    </div>
+
+    <!-- GLOSARIO -->
+    <h1>Glosario amigable de términos tecnológicos</h1>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%;">Término</th>
+                <th style="width: 75%;">Significado en lenguaje cotidiano</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Inteligencia Artificial (IA)</strong></td>
+                <td>Sistemas informáticos capaces de realizar tareas que normalmente requieren inteligencia humana, como entender el lenguaje o reconocer imágenes.</td>
+            </tr>
+            <tr>
+                <td><strong>Prompt (Indicación)</strong></td>
+                <td>La instrucción, pregunta o texto que le escribes a la IA para pedirle algo.</td>
+            </tr>
+            <tr>
+                <td><strong>ChatGPT / Gemini / Claude</strong></td>
+                <td>Nombres de diferentes programas o asistentes de IA con los que puedes conversar por escrito o por voz.</td>
+            </tr>
+            <tr>
+                <td><strong>Lenguaje Natural</strong></td>
+                <td>La forma en que hablamos y escribimos los seres humanos normalmente, sin necesidad de usar códigos de programación.</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+"""
+
+with open("ebook_alfabetizacion_ia_adultos_mayores.html", "w", encoding="utf-8") as f:
+    f.write(html_content)
+
+output_pdf = "ebook_alfabetizacion_ia_adultos_mayores.pdf"
+HTML("ebook_alfabetizacion_ia_adultos_mayores.html").write_pdf(output_pdf)
+print(f"PDF generado con éxito: {output_pdf}")
+
+
+```
+
+```text
+PDF generado con éxito: ebook_alfabetizacion_ia_adultos_mayores.pdf
+
+
+```
+
+Your PDF file is ready
+
+
+---
+
+### Resumen de la Maquetación y Estructura del eBook
+
+El documento generado ha sido maquetado con criterios de **accesibilidad, legibilidad y diseño editorial profesional**, adaptado especialmente para el público objetivo de adultos mayores.
+
+#### 1. Criterios de Maquetación y Diseño Visual
+
+* **Tipografía clara y contrastada:** Tamaño de letra optimizado (`11pt` a `18pt`) con interlineado holgado (`1.65`) para prevenir la fatiga visual.
+* **Paleta de colores suave e inclusiva:** Fondos cálidos en tono marfil/crema con acentos en azul marino y pizarra, garantizando un alto contraste sin deslumbrar.
+* **Cajas temáticas de apoyo (*Callouts*):**
+* Cajas en azul suave para **conceptos clave y reflexiones**.
+* Cajas de advertencia en tono cálido/terracota para **consejos de seguridad y privacidad digital**.
+
+
+* **Ejemplos de prompts destacados:** Formateados en cajas delimitadas para facilitar su lectura y copiado directo.
+* **Tablas estructuradas:** Diseño limpio para cuadros comparativos y el glosario de términos.
+
+---
+
+#### 2. Esquema de Contenido Desarrollado
+
+1. **Portada & Ficha Técnica:** Título, subtítulo explicativo y objetivo pedagógico de la obra.
+2. **Tabla de Contenidos:** Índice navegable estructurado por módulos.
+3. **Introducción:** Perdiendo el miedo a la IA (la IA como copiloto, no como reemplazo).
+4. **Capítulo 1: ¿Qué es la IA y cómo puede ayudarte cada día?** (Beneficios cognitivos, autonomía en trámites, entretenimiento y comunicación).
+5. **Capítulo 2: Primeros pasos y cómo "conversar" con un asistente:** La regla de las 3 C para redactar *prompts* o indicaciones efectivas.
+6. **Capítulo 3: Aplicaciones prácticas para la vida diaria:** Salud, hogar, memoria y redacción familiar.
+7. **Capítulo 4: Seguridad, privacidad y prevención de engaños:** Reglas de oro para proteger datos personales.
+8. **Capítulo 5: Taller práctico con ejercicios guiados:** Prompts listos para usar en la práctica cotidiana.
+9. **Glosario amigable:** Definiciones sencillas de términos tecnológicos clave.
+
+```python
+import os
+from weasyprint import HTML
+
+html_content = """<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Alfabetización de adultos mayores para el uso de la IA</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 20mm 15mm;
+            background-color: #fcfbfa;
+            @bottom-center {
+                content: "Página " counter(page);
+                font-family: 'Helvetica Neue', Arial, sans-serif;
+                font-size: 9pt;
+                color: #666;
+            }
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            font-size: 11pt;
+            line-height: 1.65;
+            color: #2c3e50;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Front Page / Cover */
+        .cover {
+            page-break-after: always;
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+
+        .cover-badge {
+            display: inline-block;
+            background-color: #e8f4f8;
+            color: #1a5b6e;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 10pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            padding: 6px 16px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+
+        .cover-title {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 26pt;
+            font-weight: 800;
+            color: #112d4e;
+            line-height: 1.25;
+            margin: 0 0 20px 0;
+        }
+
+        .cover-subtitle {
+            font-size: 14pt;
+            font-style: italic;
+            color: #4a5568;
+            max-width: 85%;
+            margin: 0 auto 50px auto;
+        }
+
+        .cover-box {
+            background-color: #ffffff;
+            border: 2px solid #3f72af;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 40px 20px;
+            text-align: left;
+        }
+
+        .cover-box h3 {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            color: #112d4e;
+            margin-top: 0;
+            font-size: 13pt;
+        }
+
+        .cover-footer {
+            margin-top: 60px;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 10pt;
+            color: #718096;
+        }
+
+        /* Headings */
+        h1 {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 18pt;
+            color: #112d4e;
+            border-bottom: 2px solid #3f72af;
+            padding-bottom: 8px;
+            margin-top: 30px;
+            margin-bottom: 18px;
+            page-break-after: avoid;
+        }
+
+        h2 {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 14pt;
+            color: #1f4e79;
+            margin-top: 24px;
+            margin-bottom: 12px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 12pt;
+            color: #2c3e50;
+            margin-top: 18px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 14px;
+            text-align: justify;
+        }
+
+        /* Callout Boxes */
+        .callout {
+            background-color: #f0f7ff;
+            border-left: 5px solid #3f72af;
+            padding: 14px 18px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+            page-break-inside: avoid;
+        }
+
+        .callout-title {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-weight: bold;
+            color: #112d4e;
+            margin-bottom: 6px;
+            font-size: 11pt;
+        }
+
+        .warning-box {
+            background-color: #fff8f0;
+            border-left: 5px solid #dd6b20;
+            padding: 14px 18px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+            page-break-inside: avoid;
+        }
+
+        .warning-title {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-weight: bold;
+            color: #9c4221;
+            margin-bottom: 6px;
+            font-size: 11pt;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 10.5pt;
+        }
+
+        th {
+            background-color: #112d4e;
+            color: #ffffff;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+        }
+
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+            vertical-align: top;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f7fafc;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 16px;
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Example prompts formatting */
+        .prompt-example {
+            background-color: #f4f6f8;
+            border: 1px dashed #a0aec0;
+            border-radius: 6px;
+            padding: 12px 16px;
+            margin: 12px 0;
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            color: #2d3748;
+        }
+
+        /* TOC */
+        .toc {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            padding: 20px 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .toc-item {
+            display: table;
+            width: 100%;
+            margin-bottom: 10px;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 11pt;
+        }
+
+        .toc-title {
+            display: table-cell;
+            font-weight: bold;
+            color: #112d4e;
+        }
+
+        .toc-dots {
+            display: table-cell;
+            border-bottom: 1px dotted #cbd5e0;
+            width: 100%;
+        }
+
+        .toc-page {
+            display: table-cell;
+            text-align: right;
+            padding-left: 10px;
+            color: #4a5568;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- PORTADA -->
+    <div class="cover">
+        <div class="cover-badge">Guía Práctica e Inclusiva</div>
+        <h1 class="cover-title">Alfabetización de Adultos Mayores para el Uso de la IA</h1>
+        <div class="cover-subtitle">Descubre cómo la Inteligencia Artificial puede convertirse en tu asistente personal, aliado cognitivo y compañero diario en la era digital.</div>
+        
+        <div class="cover-box">
+            <h3>Objetivo de este eBook:</h3>
+            <p style="margin-bottom:0;">Brindar a las personas adultas mayores y a sus educadores una metodología amigable, accesible y libre de modismos técnicos complejos para comprender, dominar y aprovechar con seguridad las herramientas de Inteligencia Artificial Generativa en la vida cotidiana.</p>
+        </div>
+
+        <div class="cover-footer">
+            <p><strong>Edición Digital</strong> | Colección Tecnologías Inclusivas</p>
+        </div>
+    </div>
+
+    <!-- TABLA DE CONTENIDOS -->
+    <h1>Índice de Contenidos</h1>
+    <div class="toc">
+        <div class="toc-item">
+            <span class="toc-title">Introducción: Perdiendo el miedo a la Inteligencia Artificial</span>
+        </div>
+        <div class="toc-item">
+            <span class="toc-title">Capítulo 1: ¿Qué es la IA y cómo puede ayudarte cada día?</span>
+        </div>
+        <div class="toc-item">
+            <span class="toc-title">Capítulo 2: Primeros pasos y cómo "conversar" con un asistente</span>
+        </div>
+        <div class="toc-item">
+            <span class="toc-title">Capítulo 3: Aplicaciones prácticas para la vida diaria</span>
+        </div>
+        <div class="toc-item">
+            <span class="toc-title">Capítulo 4: Seguridad, privacidad y prevención de engaños</span>
+        </div>
+        <div class="toc-item">
+            <span class="toc-title">Capítulo 5: Taller práctico con ejercicios guiados</span>
+        </div>
+        <div class="toc-item">
+            <span class="toc-title">Glosario amigable de términos tecnológicos</span>
+        </div>
+    </div>
+
+    <!-- INTRODUCCIÓN -->
+    <h1>Introducción: Perdiendo el miedo a la Inteligencia Artificial</h1>
+    <p>Durante décadas, el avance tecnológico se ha presentado a menudo como algo lejano, complejo y reservado para especialistas o jóvenes. Sin embargo, la llegada de la <strong>Inteligencia Artificial Generativa (IA)</strong> representa una oportunidad histórica de inclusión y facilitación cotidiana para los adultos mayores.</p>
+    
+    <p>A diferencia de los programas informáticos tradicionales que requerían memorizar comandos complejos, la IA actual nos permite interactuar mediante <strong>lenguaje natural</strong>. Es decir, basta con escribir o hablar como lo harías con un amigo o un colaborador para obtener respuestas útiles, inmediatas y comprensibles.</p>
+
+    <div class="callout">
+        <div class="callout-title">Idea Clave</div>
+        <p style="margin-bottom:0;">La Inteligencia Artificial no viene a reemplazar tu criterio ni tu experiencia de vida; es un copiloto paciente que nunca se cansa de responder preguntas ni de explicar las cosas cuantas veces lo necesites.</p>
+    </div>
+
+    <!-- CAPÍTULO 1 -->
+    <h1>Capítulo 1: ¿Qué es la IA y cómo puede ayudarte cada día?</h1>
+    <p>Para entender la IA sin complicaciones, imagina que tienes a tu disposición a un <strong>bibliotecario y secretario personal hipereficiente</strong>. Este asistente ha leído millones de libros, artículos y manuales, y está disponible las 24 horas del día para ayudarte a buscar información, redactar cartas o resolver dudas cotidianas.</p>
+
+    <h2>Beneficios directos para la calidad de vida:</h2>
+    <ul>
+        <li><strong>Estimulación cognitiva:</strong> Realizar ejercicios de memoria, juegos de palabras, trivias de historia o aprender nuevos idiomas a tu propio ritmo.</li>
+        <li><strong>Autonomía en trámites y lectura:</strong> Resumir cartas largas, interpretar documentos administrativos con lenguaje enrevesado o explicar prospectos de medicamentos de forma sencilla (siempre bajo supervisión médica).</li>
+        <li><strong>Creatividad y entretenimiento:</strong> Generar listas de lectura personalizadas, itinerarios de viaje, recetas según los ingredientes que tienes en casa o incluso escribir cuentos para tus nietos.</li>
+        <li><strong>Apoyo en la comunicación:</strong> Redactar correos electrónicos formales, mensajes de felicitación o cartas dirigidas a administradores o entidades.</li>
+    </ul>
+
+    <!-- CAPÍTULO 2 -->
+    <h1>Capítulo 2: Primeros pasos y cómo "conversar" con un asistente</h1>
+    <p>Para comunicarse con una herramienta de IA (como ChatGPT, Gemini o Claude), se utiliza lo que en tecnología se llama una <strong>indicación o prompt</strong>. Piensa en el prompt simplemente como la instrucción o pregunta que le haces al asistente.</p>
+
+    <h2>La Fórmula de las 3 C para una buena pregunta:</h2>
+    <ol>
+        <li><strong>Contexto:</strong> Explícale quién eres o qué situación tienes.</li>
+        <li><strong>Clarity (Claridad):</strong> Di exactamente qué necesitas que haga.</li>
+        <li><strong>Format (Formato):</strong> Indícale cómo quieres la respuesta (ej. "en un párrafo corto", "en una lista numerada", "con lenguaje sencillo").</li>
+    </ol>
+
+    <div class="prompt-example">
+        <strong>Ejemplo de pregunta efectiva:</strong><br>
+        "Soy un adulto mayor de 70 años. Quiero preparar una cena ligera con pollo, espinacas y zanahorias que tengo en la heladera. Por favor, dame una receta sencilla de 4 pasos, explicada sin términos culinarios difíciles."
+    </div>
+
+    <!-- CAPÍTULO 3 -->
+    <h1>Capítulo 3: Aplicaciones prácticas para la vida diaria</h1>
+    <p>A continuación, se presentan casos reales de uso diario diseñados para mejorar la independencia y el confort de las personas mayores:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 30%;">Área de Uso</th>
+                <th style="width: 70%;">Ejemplo Práctico de Instrucción a la IA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Salud e Bienestar</strong></td>
+                <td>"Tengo este texto del prospecto de un medicamento. Explícame en términos muy sencillos qué significa 'administración posprandial' y para qué sirve."</td>
+            </tr>
+            <tr>
+                <td><strong>Hogar y Organización</strong></td>
+                <td>"Ayúdame a organizar un plan semanal para regar mis plantas de interior y recordar cuándo debo airear el balcón."</td>
+            </tr>
+            <tr>
+                <td><strong>Ocio y Memoria</strong></td>
+                <td>"Hazme un cuestionario de 5 preguntas sobre la historia de los años 60 para ejercitar mi memoria. Dame las respuestas al final."</td>
+            </tr>
+            <tr>
+                <td><strong>Redacción Familiar</strong></td>
+                <td>"Escribe un mensaje cariñoso y breve para mi nieta que se graduó de la universidad, resaltando lo orgulloso que estoy de ella."</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- CAPÍTULO 4 -->
+    <h1>Capítulo 4: Seguridad, privacidad y prevención de engaños</h1>
+    <p>Al igual que al navegar por internet o usar el teléfono móvil, el uso de la IA requiere seguir ciertas normas básicas de autocuidado y seguridad digital.</p>
+
+    <div class="warning-box">
+        <div class="warning-title">Reglas de Oro de la Seguridad Digital</div>
+        <ul>
+            <li><strong>Nunca compartas datos sensibles:</strong> Jamás ingreses contraseñas, números de tarjetas de crédito, claves bancarias o datos de identificación personal (DNI/cédula) en las ventanas de chat.</li>
+            <li><strong>Verifica la información crítica:</strong> La IA puede cometer errores o "alucinar" datos. Para decisiones médicas, financieras o legales importantes, consulta siempre con un profesional humano.</li>
+            <li><strong>Cuidado con los enlaces externos:</strong> Si una IA o una página web sospechosa te pide descargar un archivo o hacer clic en un enlace no verificado, ignóralo.</li>
+        </ul>
+    </div>
+
+    <!-- CAPÍTULO 5 -->
+    <h1>Capítulo 5: Taller práctico con ejercicios guiados</h1>
+    <p>Pon a prueba tus conocimientos con estos 3 ejercicios sencillos. Puedes copiarlos o dictarlos a tu asistente virtual preferido:</p>
+
+    <h3>Ejercicio 1: Tu recomendador de lectura</h3>
+    <div class="prompt-example">
+        "Me gustan mucho las novelas históricas ambientadas en el siglo XIX y los libros de misterio suaves. Recomiéndame 3 libros fáciles de conseguir con una breve descripción de cada uno."
+    </div>
+
+    <h3>Ejercicio 2: Explicador de noticias o términos confusos</h3>
+    <div class="prompt-example">
+        "He escuchado en las noticias el término 'cambio climático global'. Explícamelo como si fueras un profesor amable, en 2 párrafos cortos y sin usar palabras técnicas."
+    </div>
+
+    <h3>Ejercicio 3: Organizador de caminatas o actividades</h3>
+    <div class="prompt-example">
+        "Diseña una rutina de ejercicios suaves de estiramiento de 10 minutos para hacer por las mañanas sentado en una silla."
+    </div>
+
+    <!-- GLOSARIO -->
+    <h1>Glosario amigable de términos tecnológicos</h1>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%;">Término</th>
+                <th style="width: 75%;">Significado en lenguaje cotidiano</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Inteligencia Artificial (IA)</strong></td>
+                <td>Sistemas informáticos capaces de realizar tareas que normalmente requieren inteligencia humana, como entender el lenguaje o reconocer imágenes.</td>
+            </tr>
+            <tr>
+                <td><strong>Prompt (Indicación)</strong></td>
+                <td>La instrucción, pregunta o texto que le escribes a la IA para pedirle algo.</td>
+            </tr>
+            <tr>
+                <td><strong>ChatGPT / Gemini / Claude</strong></td>
+                <td>Nombres de diferentes programas o asistentes de IA con los que puedes conversar por escrito o por voz.</td>
+            </tr>
+            <tr>
+                <td><strong>Lenguaje Natural</strong></td>
+                <td>La forma en que hablamos y escribimos los seres humanos normalmente, sin necesidad de usar códigos de programación.</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+"""
+
+with open("ebook_alfabetizacion_ia_adultos_mayores.html", "w", encoding="utf-8") as f:
+    f.write(html_content)
+
+output_pdf = "ebook_alfabetizacion_ia_adultos_mayores.pdf"
+HTML("ebook_alfabetizacion_ia_adultos_mayores.html").write_pdf(output_pdf)
+print(f"PDF generado con éxito: {output_pdf}")
+
+
+```
+
+```text
+PDF generado con éxito: ebook_alfabetizacion_ia_adultos_mayores.pdf
+
+
+```
+
+Your PDF file is ready
+
+
+---
+
+### Resumen de la Maquetación y Estructura del eBook
+
+El documento generado ha sido maquetado con criterios de **accesibilidad, legibilidad y diseño editorial profesional**, adaptado especialmente para el público objetivo de adultos mayores.
+
+#### 1. Criterios de Maquetación y Diseño Visual
+
+* **Tipografía clara y contrastada:** Tamaño de letra optimizado (`11pt` a `18pt`) con interlineado holgado (`1.65`) para prevenir la fatiga visual.
+* **Paleta de colores suave e inclusiva:** Fondos cálidos en tono marfil/crema con acentos en azul marino y pizarra, garantizando un alto contraste sin deslumbrar.
+* **Cajas temáticas de apoyo (*Callouts*):**
+* Cajas en azul suave para **conceptos clave y reflexiones**.
+* Cajas de advertencia en tono cálido/terracota para **consejos de seguridad y privacidad digital**.
+
+
+* **Ejemplos de prompts destacados:** Formateados en cajas delimitadas para facilitar su lectura y copiado directo.
+* **Tablas estructuradas:** Diseño limpio para cuadros comparativos y el glosario de términos.
+
+---
+
+#### 2. Esquema de Contenido Desarrollado
+
+1. **Portada & Ficha Técnica:** Título, subtítulo explicativo y objetivo pedagógico de la obra.
+2. **Tabla de Contenidos:** Índice navegable estructurado por módulos.
+3. **Introducción:** Perdiendo el miedo a la IA (la IA como copiloto, no como reemplazo).
+4. **Capítulo 1: ¿Qué es la IA y cómo puede ayudarte cada día?** (Beneficios cognitivos, autonomía en trámites, entretenimiento y comunicación).
+5. **Capítulo 2: Primeros pasos y cómo "conversar" con un asistente:** La regla de las 3 C para redactar *prompts* o indicaciones efectivas.
+6. **Capítulo 3: Aplicaciones prácticas para la vida diaria:** Salud, hogar, memoria y redacción familiar.
+7. **Capítulo 4: Seguridad, privacidad y prevención de engaños:** Reglas de oro para proteger datos personales.
+8. **Capítulo 5: Taller práctico con ejercicios guiados:** Prompts listos para usar en la práctica cotidiana.
+9. **Glosario amigable:** Definiciones sencillas de términos tecnológicos clave.
+
+Profesor:
+https://gamma.app/docs/La-IA-puede-ser-tu-mejor-aliada--6kyp51tx20qx7e2
+https://gamma.app/docs/Derecho-Condominial-b8xxya52x2b7iwi
+https://gamma.app/docs/La-Inflacion-en-Venezuela-mf28pdi8b7ymxrl
+
+
+https://gamma.app/docs/Alteracion-del-ADN-tgvjziuuvyn1a0n
+
+https://gamma.app/docs/La-Inflacion-en-Venezuela-f0cgwkn88mfwjod

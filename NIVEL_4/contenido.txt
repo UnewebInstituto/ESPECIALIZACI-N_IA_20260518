@@ -7,7 +7,7 @@ Introducción al Procesamiento del Lenguaje Natural (NLP) con IA: tokenización,
 
 Herramientas NLP 2026: Claude (texto largo, 200k tokens), Gemini (multimodal), Deepseek V3 (análisis de datos).
 
-Generación y Edición de Contenido con Claude: artículos, guiones, optimización SEO, reescritura y adaptación cultural multiidioma.
+Generación y Edición de Contenido con Claude: artículos, guiones, optimización SEO, reescritura y adaptación cultural multi idioma.
 
 Análisis de Documentos y Datos con Claude: contratos de 100+ páginas, análisis de sentimiento, extracción de entidades y síntesis académica.
 
