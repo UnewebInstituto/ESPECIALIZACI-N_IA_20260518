@@ -1,0 +1,167 @@
+# GUION AUDIOVISUAL
+## "Perdiendo el miedo a la Inteligencia Artificial"
+### Video educativo — Alfabetización de Adultos Mayores para el Uso de la IA
+
+**Duración estimada:** 5:30 – 6:00 min
+**Formato:** Video explicativo (animación 2D / motion graphics + locución en off, o presentador a cámara)
+**Tono:** Cálido, pausado, cercano — nunca condescendiente
+**Público objetivo:** Personas adultas mayores y sus educadores
+
+---
+
+## FICHA TÉCNICA
+
+| Elemento | Detalle |
+|---|---|
+| Voz en off | Adulta, cálida, ritmo pausado (no infantilizar) |
+| Música | Suave, instrumental, acústica — bajo volumen bajo locución |
+| Estilo visual | Ilustración cálida tipo "libro ilustrado", paleta verde lima + gris oscuro (coherente con el eBook) |
+| Subtítulos | Obligatorios, tipografía grande, alto contraste |
+| Ritmo de corte | Lento, sin cortes bruscos ni parpadeos rápidos |
+
+---
+
+## BLOQUE 0 — APERTURA (0:00 – 0:25)
+
+**VISUAL:** Fundido de entrada. Ilustración de una persona mayor sonriente, sentada en un sillón cómodo, sosteniendo una tablet con una luz cálida saliendo de la pantalla. Título entra con tipografía grande: *"Alfabetización de Adultos Mayores para el Uso de la IA"*.
+
+**AUDIO/MÚSICA:** Entra música suave, instrumental.
+
+**NARRACIÓN (VO):**
+> "¿Alguna vez escuchaste hablar de la Inteligencia Artificial y sentiste que era algo lejano, complicado... no para vos? Hoy eso va a cambiar."
+
+**DURACIÓN:** 25 seg
+
+---
+
+## BLOQUE 1 — INTRODUCCIÓN: PERDIENDO EL MIEDO (0:25 – 1:10)
+
+**VISUAL:** Transición a escena de una persona mayor conversando tranquilamente con un asistente virtual representado como un ícono amigable (no un robot frío). Texto en pantalla: *"No reemplaza tu criterio. Es un copiloto paciente."*
+
+**NARRACIÓN (VO):**
+> "Durante años, la tecnología pareció reservada para expertos. Pero la Inteligencia Artificial actual es distinta: le hablás como le hablarías a un amigo, y ella te entiende. No necesitás saber de computación. Solo necesitás animarte a preguntar.
+>
+> La IA no viene a reemplazar tu experiencia ni tu criterio. Es como un copiloto paciente, que nunca se cansa de explicarte las cosas, las veces que haga falta."
+
+**DURACIÓN:** 45 seg
+
+---
+
+## BLOQUE 2 — CAPÍTULO 1: ¿QUÉ ES LA IA Y CÓMO TE AYUDA? (1:10 – 2:10)
+
+**VISUAL:** Pantalla dividida en 4 íconos animados que aparecen uno por uno (cerebro, documento, pincel, burbujas de chat), cada uno con una breve escena ilustrada de un adulto mayor usándolo.
+
+**NARRACIÓN (VO):**
+> "Pensá en la IA como un bibliotecario y secretario personal, disponible las 24 horas. Te puede ayudar de cuatro maneras:
+>
+> Primero, a ejercitar la mente: juegos de palabras, trivias, ejercicios de memoria.
+>
+> Segundo, a ganar autonomía en trámites: resumir cartas largas o explicarte el prospecto de un medicamento en palabras simples.
+>
+> Tercero, a estimular tu creatividad: recetas con lo que tenés en casa, itinerarios de viaje, cuentos para tus nietos.
+>
+> Y cuarto, a comunicarte mejor: redactar un correo formal o un mensaje de cariño."
+
+**DURACIÓN:** 60 seg
+
+---
+
+## BLOQUE 3 — CAPÍTULO 2: CÓMO "CONVERSAR" CON UN ASISTENTE (2:10 – 3:15)
+
+**VISUAL:** Aparece la "Fórmula de las 3 C" como tres escalones o flechas numeradas (1-2-3), cada una con un ícono simple. Luego, un ejemplo de prompt aparece escrito en pantalla, como si alguien lo tipeara despacio.
+
+**NARRACIÓN (VO):**
+> "Para hablar con una IA —como ChatGPT, Gemini o Claude— se usa lo que llaman un 'prompt': es simplemente la pregunta o instrucción que le escribís.
+>
+> Y hay una fórmula muy simple para que te entienda mejor: la Fórmula de las 3 C.
+>
+> Contexto: contale quién sos o qué situación tenés.
+> Claridad: decile exactamente qué necesitás.
+> Y Formato: indicale cómo querés la respuesta — una lista, un párrafo corto, en lenguaje sencillo.
+>
+> Mirá este ejemplo…"
+
+**TEXTO EN PANTALLA (se lee en voz alta, pausado):**
+> *"Soy un adulto mayor de 70 años. Quiero preparar una cena ligera con pollo, espinacas y zanahorias. Dame una receta sencilla de 4 pasos, sin términos culinarios difíciles."*
+
+**DURACIÓN:** 65 seg
+
+---
+
+## BLOQUE 4 — CAPÍTULO 3: APLICACIONES EN LA VIDA DIARIA (3:15 – 4:05)
+
+**VISUAL:** Tabla animada de cuatro filas que se van revelando: Salud y Bienestar, Hogar y Organización, Ocio y Memoria, Redacción Familiar. Cada fila con su emoji/ícono correspondiente.
+
+**NARRACIÓN (VO):**
+> "Veamos algunos ejemplos concretos que podés usar desde hoy mismo.
+>
+> En salud: pedile que te explique en palabras simples un término médico que no entendiste.
+>
+> En el hogar: que te arme un plan semanal para cuidar tus plantas.
+>
+> Para ejercitar la memoria: que te haga un cuestionario sobre una época que viviste.
+>
+> Y para la familia: que te ayude a escribir ese mensaje especial para un nieto o nieta."
+
+**DURACIÓN:** 50 seg
+
+---
+
+## BLOQUE 5 — CAPÍTULO 4: SEGURIDAD Y PREVENCIÓN DE ENGAÑOS (4:05 – 5:00)
+
+**VISUAL:** Cambio de tono visual — colores de advertencia (amarillo/verde oscuro), tres íconos: candado, lupa, triángulo de alerta. Ritmo narrativo más firme pero sin generar alarma excesiva.
+
+**NARRACIÓN (VO):**
+> "Así como aprendimos a cuidarnos en internet, usar la IA también requiere algunas reglas básicas.
+>
+> Primero: nunca compartas datos sensibles. Contraseñas, números de tarjeta, o tu documento de identidad no se escriben en una ventana de chat.
+>
+> Segundo: la IA puede equivocarse. Para decisiones médicas, legales o de dinero, siempre consultá con un profesional humano.
+>
+> Y tercero: desconfiá de enlaces o archivos que te pidan descargar sin que vos lo hayas buscado. Ante la duda, no hagas clic."
+
+**DURACIÓN:** 55 seg
+
+---
+
+## BLOQUE 6 — CAPÍTULO 5: TALLER PRÁCTICO (5:00 – 5:35)
+
+**VISUAL:** Ilustración cálida de una persona mayor con una tablet en su living, rodeada de plantas y objetos familiares (la misma estética que la portada). Aparecen tres tarjetas con los ejercicios, una por una.
+
+**NARRACIÓN (VO):**
+> "Y ahora, la mejor parte: ponerlo en práctica. Te dejamos tres frases que podés copiar o dictarle hoy mismo a tu asistente:
+>
+> Pedile libros recomendados según tus gustos de lectura.
+> Pedile que te explique una noticia que no entendiste, en palabras simples.
+> O pedile una rutina de estiramientos suaves para hacer sentado, por las mañanas."
+
+**DURACIÓN:** 35 seg
+
+---
+
+## BLOQUE 7 — CIERRE (5:35 – 6:00)
+
+**VISUAL:** Regreso a la ilustración inicial de la pareja mayor en el jardín. Aparecen tres frases clave en pantalla: "Explora sin miedo", "Practica a diario", "Comparte lo aprendido". Fade final con el título del eBook y un llamado a la acción.
+
+**NARRACIÓN (VO):**
+> "La Inteligencia Artificial no es magia, ni es solo para jóvenes. Es una herramienta que está ahí, esperando tus preguntas.
+>
+> Cada pregunta que hagas es un paso adelante. La IA nunca pierde la paciencia.
+>
+> Animate a probar hoy mismo, y por qué no... compartí lo que aprendiste con otro adulto mayor. Así, entre todos, perdemos el miedo a la tecnología."
+
+**TEXTO FINAL EN PANTALLA:**
+> *Alfabetización de Adultos Mayores para el Uso de la IA*
+> *Descargá el eBook completo*
+
+**DURACIÓN:** 25 seg
+
+---
+
+## NOTAS DE PRODUCCIÓN
+
+- **Locución:** grabar con micrófono de condensador, ritmo 15-20% más lento que un video estándar; dejar pausas naturales entre ideas.
+- **Legibilidad:** todo texto en pantalla debe permanecer visible al menos 4-5 segundos; evitar texto pequeño o low-contrast.
+- **Accesibilidad:** incluir subtítulos quemados y versión con audiodescripción si se publica en plataformas que lo permitan.
+- **Duración alternativa:** si se necesita una versión corta (redes sociales, ~90 seg), usar solo Bloques 0, 3 (Fórmula de las 3C) y 7 (cierre).
+- **Llamado a la acción final:** ajustar según el canal de distribución (descarga del eBook, inscripción a taller presencial, etc.).

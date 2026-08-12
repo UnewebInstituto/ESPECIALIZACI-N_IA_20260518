@@ -1,0 +1,179 @@
+# GUION AUDIOVISUAL
+## "La Inflación en Venezuela: Historia de un Colapso Monetario"
+
+**Formato:** Documental narrativo | **Duración estimada:** 8–10 minutos
+**Género:** Análisis económico / Divulgación histórica
+**Basado en:** *La Inflación en Venezuela — Origen, Dinámica Hiperinflacionaria y Desafíos de Estabilización Monetaria*
+
+---
+
+### NOTA DE PRODUCCIÓN
+
+Este guion está estructurado en bloques (escenas) siguiendo la lógica de los capítulos del documento fuente. Cada bloque incluye:
+- **VISUAL:** sugerencia de imagen/recurso en pantalla
+- **NARRACIÓN (VOZ EN OFF):** texto a locutar
+- **TEXTO EN PANTALLA:** datos o cifras clave para reforzar visualmente
+- **DURACIÓN APROX.**
+
+Se recomienda música incidental de tono serio/analítico (piano o cuerdas minimalistas) de fondo, bajando el volumen durante la narración.
+
+---
+
+## BLOQUE 0 — APERTURA / COLD OPEN
+**Duración: 15-20 seg**
+
+**VISUAL:** Imágenes de archivo intercaladas: billetes venezolanos de distintas épocas, gente contando dinero, un cajero automático, colas frente a un banco.
+
+**TEXTO EN PANTALLA:** "100.000.000.000.000 a 1"
+
+**NARRACIÓN:**
+"Imagina que cien billones de tu moneda... hoy valen uno solo. Esto no es ciencia ficción. Es la historia real de Venezuela."
+
+**[CORTE A TÍTULO: "LA INFLACIÓN EN VENEZUELA"]**
+
+---
+
+## BLOQUE 1 — INTRODUCCIÓN: EL ENIGMA MONETARIO
+**Duración: 40-50 seg**
+
+**VISUAL:** Mapa de Venezuela, luego transición a gráfico de línea de tiempo vacío que se irá llenando a lo largo del video.
+
+**NARRACIÓN:**
+"Durante décadas, Venezuela tuvo una de las monedas más estables de América Latina. Pero algo cambió. Un proceso de deterioro monetario que terminó en uno de los episodios hiperinflacionarios más severos de la historia moderna. ¿Cómo llegó un país próspero a este punto? La respuesta combina emisión descontrolada de dinero, caída del ingreso petrolero, controles de cambio... y tres reformas monetarias que, juntas, le quitaron 14 ceros a su moneda en solo 13 años."
+
+**TEXTO EN PANTALLA:** "14 ceros eliminados · 13 años"
+
+---
+
+## BLOQUE 2 — CAPÍTULO 1: LA RUPTURA DE LA ESTABILIDAD (1973–1998)
+**Duración: 60-70 seg**
+
+**VISUAL:** Fotos de archivo de Venezuela años 70-80, tipo de cambio fijo en pizarra, luego imágenes del "Viernes Negro".
+
+**NARRACIÓN:**
+"Durante gran parte del siglo XX, el bolívar mantuvo un tipo de cambio fijo: 4,30 bolívares por dólar. Este equilibrio dependía del flujo constante de divisas petroleras y de una política monetaria prudente del Banco Central de Venezuela."
+
+**[PAUSA DRAMÁTICA — TEXTO EN PANTALLA: "18 de febrero de 1983"]**
+
+"Pero el 18 de febrero de 1983 llegó el 'Viernes Negro'. El agotamiento de las reservas internacionales obligó al gobierno a devaluar el bolívar y establecer un régimen de cambios diferenciados. A partir de ese momento, la inflación se instaló como un problema crónico de dos dígitos."
+
+**TEXTO EN PANTALLA (gráfico de barras simple):**
+- 1989 — Inflación: 81% ("El Gran Viraje")
+- 1996 — Inflación: 103,2% ("Agenda Venezuela")
+
+**NARRACIÓN (cont.):**
+"En 1989, tras el ajuste del 'Gran Viraje', la inflación se disparó al 81%. Y en 1996, con la 'Agenda Venezuela', se alcanzó un pico histórico del 103,2% anual."
+
+---
+
+## BLOQUE 3 — CAPÍTULO 2: CONTROLES CAMBIARIOS (1999–2016)
+**Duración: 60-70 seg**
+
+**VISUAL:** Auge petrolero, plataformas petroleras, luego gráfico de brecha cambiaria abriéndose entre dos líneas (oficial vs. paralelo).
+
+**NARRACIÓN:**
+"Con el nuevo siglo llegó un auge en los precios del petróleo, y el gasto público del Estado venezolano creció de forma sustancial. Pero en vez de ahorrar, el esquema fiscal se volvió cada vez más dependiente de la renta petrolera y de la deuda."
+
+**TEXTO EN PANTALLA:** "2003 — CADIVI: Control de cambio"
+
+"En 2003 se implementó el control de cambio a través de CADIVI. Con los años, la brecha entre el dólar oficial y el dólar del mercado paralelo se amplió dramáticamente, incentivando la fuga de divisas y desplazando la producción nacional por importaciones subsidiadas."
+
+**VISUAL:** Caída del precio del petróleo (gráfico descendente), imágenes de PDVSA.
+
+"Desde la caída petrolera de 2014, el gobierno recurrió sistemáticamente al Banco Central para financiar el déficit de PDVSA. Esa creación desmedida de dinero, sin respaldo en producción ni reservas, fue la gasolina que encendió la hiperinflación."
+
+---
+
+## BLOQUE 4 — CAPÍTULO 3: LA ESPIRAL HIPERINFLACIONARIA (2017–2021)
+**Duración: 80-90 seg** *(bloque central — mayor énfasis visual)*
+
+**VISUAL:** Billetes apilados, gente cargando fajos de dinero en bolsas, cajas registradoras, calculadoras.
+
+**TEXTO EN PANTALLA:** "Noviembre 2017 — Umbral de Cagan: +50% mensual"
+
+**NARRACIÓN:**
+"En noviembre de 2017, Venezuela cruzó el umbral que el economista Phillip Cagan definió como hiperinflación: una tasa mensual superior al 50%. El fenómeno se prolongó por más de cuatro años, destruyendo al bolívar como reserva de valor, unidad de cuenta y medio de pago."
+
+**VISUAL:** Tabla animada mostrando las tres reconversiones (se recomienda una infografía tipo contador que va "borrando" ceros).
+
+**TEXTO EN PANTALLA — TABLA:**
+| Año | Nueva moneda | Ceros eliminados |
+|---|---|---|
+| 2008 | Bolívar Fuerte | 3 ceros |
+| 2018 | Bolívar Soberano | 5 ceros |
+| 2021 | Bolívar Digital | 6 ceros |
+| **Total** | | **14 ceros** |
+
+**NARRACIÓN (cont.):**
+"Para intentar salvar el sistema de pagos, colapsado por cifras que ni las computadoras podían procesar, el país ejecutó tres reconversiones monetarias: en 2008, el Bolívar Fuerte eliminó tres ceros. En 2018, el Bolívar Soberano eliminó cinco más. Y en 2021, el Bolívar Digital eliminó seis. En total: catorce ceros borrados en poco más de una década."
+
+**VISUAL:** Imágenes de migración — maletas, terminales de autobuses, fronteras.
+
+"La velocidad de los precios pulverizó los salarios reales, impulsó una migración masiva y forzó a millones de venezolanos a abandonar su moneda para sobrevivir."
+
+---
+
+## BLOQUE 5 — CAPÍTULO 4: DOLARIZACIÓN DE FACTO (2022–2026)
+**Duración: 60-70 seg**
+
+**VISUAL:** Comercios con precios en dólares, datáfonos, pagos móviles, códigos QR de criptomonedas.
+
+**NARRACIÓN:**
+"Frente al colapso del bolívar, la economía venezolana vivió una dolarización espontánea. Comercios, profesionales y ciudadanos comenzaron a fijar precios y pagar en dólares, euros e incluso criptomonedas."
+
+**TEXTO EN PANTALLA — 3 puntos con íconos:**
+1. Elevado encaje legal → menos crédito en bolívares
+2. Venta semanal de divisas del BCV
+3. IGTF → impuesto a pagos en divisas
+
+**NARRACIÓN (cont.):**
+"En años recientes, la inflación se desaceleró frente a los picos de 2018 y 2019. Tres medidas ortodoxas explican parte de esta calma: un encaje legal elevado que restringió el crédito bancario, la intervención cambiaria continua del Banco Central, y un impuesto a las grandes transacciones financieras para incentivar el uso del bolívar."
+
+---
+
+## BLOQUE 6 — CONCLUSIONES: LECCIONES
+**Duración: 45-55 seg**
+
+**VISUAL:** Tono más reflexivo — imágenes de instituciones, edificio del Banco Central, gente trabajando/emprendiendo.
+
+**NARRACIÓN:**
+"¿Qué deja este episodio para la economía moderna? Tres lecciones centrales."
+
+**TEXTO EN PANTALLA (aparecen una a una):**
+1. Independencia del Banco Central
+2. Disciplina fiscal, más allá del petróleo
+3. Confianza institucional
+
+**NARRACIÓN (cont.):**
+"Primero, la independencia del Banco Central es indispensable para evitar que la emisión de dinero se use como financiamiento fiscal. Segundo, las cuentas públicas no pueden depender solo de ingresos volátiles como el petróleo. Y tercero —quizás la más importante—: recuperar una moneda no depende únicamente de quitarle ceros. Depende de construir instituciones creíbles que den seguridad jurídica y atraigan inversión."
+
+---
+
+## BLOQUE 7 — CIERRE
+**Duración: 15-20 seg**
+
+**VISUAL:** Fundido a negro con el logo/marca del canal o proyecto. Música sube ligeramente.
+
+**NARRACIÓN:**
+"La historia de la inflación venezolana no es solo la historia de un número. Es la historia de cómo se construye —y se destruye— la confianza en una moneda."
+
+**TEXTO EN PANTALLA:** "Gracias por ver este análisis. Suscríbete para más contenido de economía."
+
+**[FIN]**
+
+---
+
+## FICHA TÉCNICA RESUMIDA
+
+| Elemento | Detalle |
+|---|---|
+| Duración total estimada | 8-10 minutos |
+| Tono | Analítico, serio, divulgativo |
+| Recursos necesarios | Imágenes de archivo, gráficos animados, tabla de reconversiones, mapa de Venezuela |
+| Música sugerida | Ambient/piano minimalista, tensión creciente en Bloque 4 |
+| Locución | Voz neutra, ritmo pausado, énfasis en cifras clave |
+
+## GLOSARIO PARA EL LOCUTOR (pronunciación / énfasis)
+- **Hiperinflación:** inflación superior al 50% mensual.
+- **Dinero inorgánico:** dinero emitido sin respaldo en producción o reservas.
+- **Reconversión monetaria:** eliminar ceros de la moneda.

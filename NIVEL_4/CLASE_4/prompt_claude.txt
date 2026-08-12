@@ -1,0 +1,6 @@
+Asume el rol de experto en producción audiovisual, genera un guión basado en el archivo anexo.
+
+Dado que estoy usando Fliki Ai, en su modo gratuito para producir los
+videos en cuestión se requiere que el contenido del guión anexo, sea
+convertido en guiones independientes con duración de un 1 minuto 
+cada uno, hasta completar la historia.
