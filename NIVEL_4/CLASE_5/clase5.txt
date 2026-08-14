@@ -1,0 +1,29 @@
+Aquí tienes una selección de alternativas gratuitas (o con planes gratuitos generosos) a Fliki AI, según lo que hace cada tipo de vídeo:
+
+**Para texto/guion → vídeo con voz IA (lo que hace Fliki):**
+- **Canva** — Tiene generación de vídeo con IA, texto a voz, plantillas y stock integrado. Plan gratuito bastante completo, ideal si ya lo usas para diseño.
+- **CapCut** (versión web/escritorio) — Texto a vídeo, subtítulos automáticos, voces IA y edición sencilla, gratis con marca de agua opcional.
+- **Renderforest** — Similar a Fliki: convierte guiones en vídeos con voz IA y plantillas, plan gratis con marca de agua.
+- **Clipchamp** (de Microsoft) — Gratis si tienes cuenta Microsoft, buen editor con IA básica.
+
+**Para convertir blogs/artículos en vídeos cortos:**
+- **Kapwing** — Editor online con funciones IA, plan gratuito limitado en minutos de exportación.
+
+**Para vídeo generativo puro (texto/imagen → vídeo, más tipo Sora/Runway):**
+- Puedes comparar generadores como Sora 2, Runway, Kling, Luma, Pika y Veo, con opciones gratuitas limitadas para probar.
+- **Hailuo AI** y **Pika** — Ambos ofrecen créditos gratuitos para generar clips cortos desde texto o imagen.
+- **PixVerse** — También tiene plan gratuito con créditos limitados.
+
+**Con avatares IA (si buscas presentador virtual):**
+- **HeyGen** y **Vidnoz AI** — Ambos tienen plan gratuito disponible, con avatares y voces, aunque las funciones completas requieren pago.
+
+Una recomendación honesta: casi todas estas herramientas "gratis" tienen marca de agua, minutos limitados o resolución reducida en el plan free — igual que Fliki. Si tu prioridad es texto→vídeo con voz narrada (el caso de uso exacto de Fliki), **Canva o Renderforest** son probablemente el mejor punto de partida gratuito. Si lo que quieres es generación de vídeo más "creativa" desde cero, **Pika o Hailuo** te dan más margen para experimentar sin pagar.
+
+¿Para qué tipo de contenido lo necesitas (cursos, redes sociales, marketing)? Así te puedo afinar cuál te conviene más.
+
+
+CANVA:
+
+https://www.canva.com/ai-assistant/
+
+https://pixabay.com/es/music/
